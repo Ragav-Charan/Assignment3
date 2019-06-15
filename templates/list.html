@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+
+   <body>
+   <center>
+       <h1>Name: Charan Venkatesan</h1>
+    <h1>Student Id: 1001626250</h1>
+    <h1>Assignment2</h1><br>
+      <header> <h1> This page lists the Earthquake records </h1>
+      </header>
+      <br> <br>
+      <table border=1>
+    <thead>
+    <td>time</td>
+    <td>latitude</td>
+    <td>longitude</td>
+    <td>depth</td>
+    <td>mag</td>
+	<td>nst</td>
+    <td>place</td>
+    </thead>
+    <tbody>
+    {% for rows in data1 %}
+
+        <tr>
+            <td>{{rows[1]}}</td>
+            <td>{{rows[2]}}</td>
+            <td>{{rows[3]}}</td>
+            <td>{{rows[4]}}</td>
+            <td>{{rows[5]}}</td>
+            <td>{{rows[6]}}</td>
+            <td>{{rows[7]}}</td>
+        </tr>
+
+    {% endfor %}
+    </tbody>
+</table>
+
+      <br>
+      <h2> <a href = "/">Home</a> </h2>
+   </center>
+   </body>
+</html>
