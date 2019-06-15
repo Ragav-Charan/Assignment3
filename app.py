@@ -18,7 +18,7 @@ def upload_csv():
 @app.route('/addrec',methods = ['POST', 'GET'])
 def addrec():
    if request.method == 'POST':
-       con = sql.connect("database.db")
+       con = sql.connect("https://github.com/Ragav-Charan/Assignment3.git/database.db")
        csv = request.files['myfile']
        file = pd.read_csv(csv)
        file.to_sql('Earthquake', con, schema=None, if_exists='replace', index=True, index_label=None, chunksize=None, dtype=None)
