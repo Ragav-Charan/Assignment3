@@ -18,7 +18,7 @@ cnxn = pyodbc.connect('DRIVER='+driver+';SERVER='+server+';PORT=1433;DATABASE='+
 @app.route('/')
 def home():
     cursor = cnxn.cursor()
-    cursor.execute("SELECT * FROM people")
+    cursor.execute("SELECT * FROM all_month")
     row = cursor.fetchall()
     # while row:
     #     #print(str(row[0]) + " " + str(row[1]))
@@ -50,4 +50,4 @@ def list():
 
 if __name__ == '__main__':
     #app.run(default=True)
-    app.run(host='0.0.0.0',port=port)
+    app.run(host='0.0.0.0',port=port,debug=True)
