@@ -1,5 +1,5 @@
 import os
-
+import pyodbc
 import pandas as pd
 from flask import Flask, render_template, request
 import sqlite3 as sql
@@ -7,9 +7,23 @@ import sqlite3 as sql
 app = Flask(__name__)
 port = int(os.getenv('VCAP_APP_PORT','5000'))
 
+server = 'charan.database.windows.net'
+database = 'charan'
+username = 'charan123'
+password = 'Smokescreen@5'
+driver= '{ODBC Driver 17 for SQL Server}'
+cnxn = pyodbc.connect('DRIVER='+driver+';SERVER='+server+';PORT=1433;DATABASE='+database+';UID='+username+';PWD='+ password)
+
+
 @app.route('/')
 def home():
-   return render_template('home.html')
+    cursor = cnxn.cursor()
+    cursor.execute("SELECT * FROM all_month")
+    row = cursor.fetchone()
+    while row:
+        print(str(row[0]) + " " + str(row[1]))
+        row = cursor.fetchone()
+    return render_template('home.html',data = row)
 
 @app.route('/enternew')
 def upload_csv():
