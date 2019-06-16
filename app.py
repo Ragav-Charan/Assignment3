@@ -18,7 +18,7 @@ cnxn = pyodbc.connect('DRIVER='+driver+';SERVER='+server+';PORT=1433;DATABASE='+
 @app.route('/')
 def home():
     cursor = cnxn.cursor()
-    cursor.execute("SELECT * FROM all_month")
+    cursor.execute("SELECT * FROM people")
     row = cursor.fetchall()
     # while row:
     #     #print(str(row[0]) + " " + str(row[1]))
