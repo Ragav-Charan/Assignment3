@@ -8,7 +8,7 @@ app = Flask(__name__)
 port = int(os.getenv('VCAP_APP_PORT','5000'))
 
 server = 'charan.database.windows.net'
-database = 'charan'
+database = 'MyDB'
 username = 'charan123'
 password = 'Smokescreen@5'
 driver= '{ODBC Driver 17 for SQL Server}'
@@ -19,10 +19,10 @@ cnxn = pyodbc.connect('DRIVER='+driver+';SERVER='+server+';PORT=1433;DATABASE='+
 def home():
     cursor = cnxn.cursor()
     cursor.execute("SELECT * FROM all_month")
-    row = cursor.fetchone()
-    while row:
-        print(str(row[0]) + " " + str(row[1]))
-        row = cursor.fetchone()
+    row = cursor.fetchall()
+    # while row:
+    #     #print(str(row[0]) + " " + str(row[1]))
+    #     row = cursor.fetchall()
     return render_template('home.html',data = row)
 
 @app.route('/enternew')
@@ -50,4 +50,4 @@ def list():
 
 if __name__ == '__main__':
     #app.run(default=True)
-    app.run(host='0.0.0.0',port=port,debug=True)
+    app.run(host='0.0.0.0',port=port)
