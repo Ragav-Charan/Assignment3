@@ -1,0 +1,1 @@
+2019-06-15T02:02:41  Startup Request, url: /api/vfs/site/wwwroot/?_=1560562621473, method: GET, type: request, pid: 70,1,5, ScmType: None

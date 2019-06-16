@@ -1,0 +1,6 @@
+<step title="Incoming Request" date="2019-06-15T02:09:18.133" instance="1b23e7" url="/deploy?scmType=GitHub&amp;isAsync=true" method="POST" type="request" pid="68,1,14" Connection="close" Authorization="Bas..." Host="daringdracula.scm.azurewebsites.net" User-Agent="Azure-WebSites-Controller/82.0.7.88" Content-Length="90" X-Client-IP="40.122.114.229" X-Client-Port="13696" x-ms-request-id="ed4541ea-9dc5-4b2d-8b52-ced9d65caeef" X-WAWS-Unencoded-URL="/deploy?scmType=GitHub&amp;isAsync=true" CLIENT-IP="40.122.114.229:13696" X-ARR-LOG-ID="ed4541ea-9dc5-4b2d-8b52-ced9d65caeef" X-SITE-DEPLOYMENT-ID="daringdracula" WAS-DEFAULT-HOSTNAME="daringdracula.scm.azurewebsites.net" X-Forwarded-Proto="https" X-AppService-Proto="https" >
+  <step title="FetchHandler" date="2019-06-15T02:09:18.161" >
+    <step title="Start deployment in the background" date="2019-06-15T02:09:18.186" /><!-- duration: 224ms -->
+  </step><!-- duration: 254ms -->
+  <step title="Outgoing response" date="2019-06-15T02:09:18.420" type="response" statusCode="202" statusText="Accepted" /><!-- duration: 4ms -->
+</step><!-- duration: 297ms -->

@@ -1,0 +1,97 @@
+2019-06-15T19:45:28.6982772Z,Updating submodules.,6e8bbd1c-12b7-49ed-adfb-1c7b90c01961,0
+2019-06-15T19:45:28.7341329Z,Preparing deployment for commit id '74680c6c9d'.,8e47db38-461f-4c51-a65b-c2de1c4d045c,0
+2019-06-15T19:45:28.8778170Z,Oryx-Build: Running kudu sync...,26b5ef20-4fcb-4e7b-9de4-4ff04f8ccec1,0
+	2019-06-15T19:45:28.8822116Z,Command: kudusync -v 50 -f /home/site/repository -t /home/site/wwwroot -n /home/site/deployments/74680c6c9dc5e113e155cf340b7ce9967da9ee37/manifest -p /home/site/firstDeploymentManifest -i ".git;.hg;.deployment;.deploy.sh",,0
+	2019-06-15T19:45:29.1100971Z,Kudu sync from: '/home/site/repository' to: '/home/site/wwwroot',,0
+	2019-06-15T19:45:29.1346763Z,Copying file: 'Assignment3.pdf',,0
+	2019-06-15T19:45:29.1464285Z,Copying file: 'app.py',,0
+	2019-06-15T19:45:29.1638560Z,Copying file: 'procfile.txt',,0
+	2019-06-15T19:45:29.1804975Z,Copying file: 'requirements.txt',,0
+	2019-06-15T19:45:29.1917789Z,Deleting file: 'database.db',,0
+	2019-06-15T19:45:29.2055548Z,Ignoring: .git,,0
+	2019-06-15T19:45:29.2154557Z,Copying file: '.idea/Assignment3.iml',,0
+	2019-06-15T19:45:29.2252676Z,Copying file: '.idea/misc.xml',,0
+	2019-06-15T19:45:29.2381600Z,Copying file: '.idea/modules.xml',,0
+	2019-06-15T19:45:29.2507237Z,Copying file: '.idea/vcs.xml',,0
+	2019-06-15T19:45:29.2628176Z,Deleting file: '.idea/HelloDemo.iml',,0
+	2019-06-15T19:45:29.2799622Z,Deleting file: '.idea/workspace.xml',,0
+	2019-06-15T19:45:29.2914120Z,Copying file: 'templates/home.html',,0
+	2019-06-15T19:45:29.3019920Z,Copying file: 'templates/list.html',,0
+	2019-06-15T19:45:29.3155388Z,Copying file: 'templates/result.html',,0
+	2019-06-15T19:45:29.3241736Z,Copying file: 'templates/upload.html',,0
+	2019-06-15T19:45:29.3325502Z,Copying file: 'venv/pyvenv.cfg',,0
+	2019-06-15T19:45:29.3598221Z,Copying file: 'venv/Lib/site-packages/easy-install.pth',,0
+	2019-06-15T19:45:29.3694732Z,Copying file: 'venv/Lib/site-packages/setuptools-40.8.0-py3.7.egg',,0
+	2019-06-15T19:45:29.3796166Z,Copying file: 'venv/Lib/site-packages/setuptools.pth',,0
+	2019-06-15T19:45:29.3955604Z,Copying file: 'venv/Lib/site-packages/six.py',,0
+	2019-06-15T19:45:29.4068521Z,Copying file: 'venv/Lib/site-packages/Click-7.0.dist-info/INSTALLER',,0
+	2019-06-15T19:45:29.4160375Z,Copying file: 'venv/Lib/site-packages/Click-7.0.dist-info/LICENSE.txt',,0
+	2019-06-15T19:45:29.4261101Z,Copying file: 'venv/Lib/site-packages/Click-7.0.dist-info/METADATA',,0
+	2019-06-15T19:45:29.4351770Z,Copying file: 'venv/Lib/site-packages/Click-7.0.dist-info/RECORD',,0
+	2019-06-15T19:45:29.4495238Z,Copying file: 'venv/Lib/site-packages/Click-7.0.dist-info/WHEEL',,0
+	2019-06-15T19:45:29.4597808Z,Copying file: 'venv/Lib/site-packages/Click-7.0.dist-info/top_level.txt',,0
+	2019-06-15T19:45:29.4845988Z,Copying file: 'venv/Lib/site-packages/Flask-1.0.3.dist-info/INSTALLER',,0
+	2019-06-15T19:45:29.4943451Z,Copying file: 'venv/Lib/site-packages/Flask-1.0.3.dist-info/LICENSE',,0
+	2019-06-15T19:45:29.5051934Z,Copying file: 'venv/Lib/site-packages/Flask-1.0.3.dist-info/METADATA',,0
+	2019-06-15T19:45:29.5156573Z,Copying file: 'venv/Lib/site-packages/Flask-1.0.3.dist-info/RECORD',,0
+	2019-06-15T19:45:29.5245674Z,Copying file: 'venv/Lib/site-packages/Flask-1.0.3.dist-info/WHEEL',,0
+	2019-06-15T19:45:29.5318038Z,Copying file: 'venv/Lib/site-packages/Flask-1.0.3.dist-info/entry_points.txt',,0
+	2019-06-15T19:45:29.5390631Z,Copying file: 'venv/Lib/site-packages/Flask-1.0.3.dist-info/top_level.txt',,0
+	2019-06-15T19:45:29.5574819Z,Copying file: 'venv/Lib/site-packages/Jinja2-2.10.1.dist-info/INSTALLER',,0
+	2019-06-15T19:45:29.5663939Z,Copying file: 'venv/Lib/site-packages/Jinja2-2.10.1.dist-info/LICENSE',,0
+	2019-06-15T19:45:29.5739442Z,Copying file: 'venv/Lib/site-packages/Jinja2-2.10.1.dist-info/METADATA',,0
+	2019-06-15T19:45:29.5824129Z,Copying file: 'venv/Lib/site-packages/Jinja2-2.10.1.dist-info/RECORD',,0
+	2019-06-15T19:45:29.5910249Z,Copying file: 'venv/Lib/site-packages/Jinja2-2.10.1.dist-info/WHEEL',,0
+	2019-06-15T19:45:29.6078905Z,Copying file: 'venv/Lib/site-packages/Jinja2-2.10.1.dist-info/entry_points.txt',,0
+	2019-06-15T19:45:29.6229874Z,Copying file: 'venv/Lib/site-packages/Jinja2-2.10.1.dist-info/top_level.txt',,0
+	2019-06-15T19:45:29.6403100Z,Copying file: 'venv/Lib/site-packages/MarkupSafe-1.1.1.dist-info/INSTALLER',,0
+	2019-06-15T19:45:29.6480550Z,Copying file: 'venv/Lib/site-packages/MarkupSafe-1.1.1.dist-info/LICENSE.rst',,0
+	2019-06-15T19:45:29.6563903Z,Copying file: 'venv/Lib/site-packages/MarkupSafe-1.1.1.dist-info/METADATA',,0
+	2019-06-15T19:45:29.6671914Z,Copying file: 'venv/Lib/site-packages/MarkupSafe-1.1.1.dist-info/RECORD',,0
+	2019-06-15T19:45:29.6758361Z,Copying file: 'venv/Lib/site-packages/MarkupSafe-1.1.1.dist-info/WHEEL',,0
+	2019-06-15T19:45:29.6845662Z,Copying file: 'venv/Lib/site-packages/MarkupSafe-1.1.1.dist-info/top_level.txt',,0
+	2019-06-15T19:45:29.7072970Z,Copying file: 'venv/Lib/site-packages/Werkzeug-0.15.4.dist-info/INSTALLER',,0
+	2019-06-15T19:45:29.7169493Z,Copying file: 'venv/Lib/site-packages/Werkzeug-0.15.4.dist-info/LICENSE.rst',,0
+	2019-06-15T19:45:29.7300345Z,Omitting next output lines...,,0
+	2019-06-15T19:45:49.7168937Z,Processed 1819 files...,,0
+2019-06-15T19:45:55.2237600Z,Running oryx build...,f496a8c2-a87a-4d37-9a7f-2649dcec8a9c,0
+	2019-06-15T19:45:55.2288928Z,Command: oryx build /home/site/wwwroot -o /home/site/wwwroot -l python --language-version 3.7 -p virtualenv_name=antenv,,0
+	2019-06-15T19:45:56.1424171Z,Build orchestrated by Microsoft Oryx&comma; https://github.com/Microsoft/Oryx,,0
+	2019-06-15T19:45:56.1541750Z,You can report issues at https://github.com/Microsoft/Oryx/issues,,0
+	2019-06-15T19:45:56.1681883Z,,,0
+	2019-06-15T19:45:56.1780078Z,Oryx Version       : 0.2.20190420.8&comma; Commit: 391f7dd882e6fe5bea69edf6ba76d77e3d310e96,,0
+	2019-06-15T19:45:56.1850419Z,Build Operation ID : |dKLg9teuvCk=.6235d3d7_,,0
+	2019-06-15T19:45:56.1915040Z,Repository Commit  : 74680c6c9dc5e113e155cf340b7ce9967da9ee37,,0
+	2019-06-15T19:45:56.1998506Z,,,0
+	2019-06-15T19:45:56.5432825Z,,,0
+	2019-06-15T19:45:56.5521864Z,Source directory     : /home/site/wwwroot,,0
+	2019-06-15T19:45:56.5615090Z,Destination directory: /home/site/wwwroot,,0
+	2019-06-15T19:45:56.5720561Z,,,0
+	2019-06-15T19:45:56.5843870Z,Python Version: /opt/python/3.7.2/bin/python3,,0
+	2019-06-15T19:45:56.6017338Z,Python Virtual Environment: antenv,,0
+	2019-06-15T19:45:56.6208381Z,Creating virtual environment ...,,0
+	2019-06-15T19:45:58.3352810Z,Activating virtual environment ...,,0
+	2019-06-15T19:45:58.3494315Z,,,0
+	2019-06-15T19:45:58.3574582Z,Upgrading pip...,,0
+	2019-06-15T19:46:00.2518388Z,Requirement already up-to-date: pip in ./antenv/lib/python3.7/site-packages (19.1.1),,0
+	2019-06-15T19:46:00.6492252Z,Done in 2 sec(s).,,0
+	2019-06-15T19:46:00.6556979Z,Running pip install...,,0
+	2019-06-15T19:46:02.8390609Z,[19:46:02+0000] Requirement already satisfied: Flask in ./antenv/lib/python3.7/site-packages (from -r requirements.txt (line 1)) (0.12.1),,0
+	2019-06-15T19:46:02.8633795Z,[19:46:02+0000] Requirement already satisfied: pandas in ./antenv/lib/python3.7/site-packages (from -r requirements.txt (line 2)) (0.24.2),,0
+	2019-06-15T19:46:02.8786528Z,[19:46:02+0000] Requirement already satisfied: click>=2.0 in ./antenv/lib/python3.7/site-packages (from Flask->-r requirements.txt (line 1)) (7.0),,0
+	2019-06-15T19:46:02.8945595Z,[19:46:02+0000] Requirement already satisfied: Werkzeug>=0.7 in ./antenv/lib/python3.7/site-packages (from Flask->-r requirements.txt (line 1)) (0.15.4),,0
+	2019-06-15T19:46:02.9222923Z,[19:46:02+0000] Requirement already satisfied: itsdangerous>=0.21 in ./antenv/lib/python3.7/site-packages (from Flask->-r requirements.txt (line 1)) (1.1.0),,0
+	2019-06-15T19:46:02.9357824Z,[19:46:02+0000] Requirement already satisfied: Jinja2>=2.4 in ./antenv/lib/python3.7/site-packages (from Flask->-r requirements.txt (line 1)) (2.10.1),,0
+	2019-06-15T19:46:02.9568030Z,[19:46:02+0000] Requirement already satisfied: numpy>=1.12.0 in ./antenv/lib/python3.7/site-packages (from pandas->-r requirements.txt (line 2)) (1.16.4),,0
+	2019-06-15T19:46:02.9695112Z,[19:46:02+0000] Requirement already satisfied: python-dateutil>=2.5.0 in ./antenv/lib/python3.7/site-packages (from pandas->-r requirements.txt (line 2)) (2.8.0),,0
+	2019-06-15T19:46:02.9849941Z,[19:46:02+0000] Requirement already satisfied: pytz>=2011k in ./antenv/lib/python3.7/site-packages (from pandas->-r requirements.txt (line 2)) (2019.1),,0
+	2019-06-15T19:46:03.0084674Z,[19:46:02+0000] Requirement already satisfied: MarkupSafe>=0.23 in ./antenv/lib/python3.7/site-packages (from Jinja2>=2.4->Flask->-r requirements.txt (line 1)) (1.1.1),,0
+	2019-06-15T19:46:03.0311987Z,[19:46:03+0000] Requirement already satisfied: six>=1.5 in ./antenv/lib/python3.7/site-packages (from python-dateutil>=2.5.0->pandas->-r requirements.txt (line 2)) (1.12.0),,0
+	2019-06-15T19:46:03.3599991Z,Done running pip install.,,0
+	2019-06-15T19:46:03.3717986Z,,,0
+	2019-06-15T19:46:03.3786502Z,Removing existing manifest file,,0
+	2019-06-15T19:46:03.3860591Z,,,0
+	2019-06-15T19:46:03.3953211Z,Done.,,0
+2019-06-15T19:46:05.1393888Z,Running post deployment command(s)...,f9ac5a39-a29b-4454-97bc-b4ea08b8ca21,0
+2019-06-15T19:46:05.2056699Z,Deployment successful.,df15a322-aed0-49d4-bbb1-330e31be2dc4,0
+2019-06-15T19:46:05.3078004Z,App container will begin restart within 10 seconds.,87fe22e2-5f28-41bc-9840-cf7fdd051153,0

@@ -1,0 +1,10 @@
+<step title="Incoming Request" date="2019-06-15T02:10:24.831" instance="1b23e7" url="/api/deployments/latest?deployer=GitHub&amp;time=2019-06-15_02-09-18Z" method="GET" type="request" pid="68,1,19" Connection="close" Authorization="Bas..." Host="daringdracula.scm.azurewebsites.net" User-Agent="Azure-WebSites-Controller/82.0.7.88" X-Client-IP="40.122.114.229" X-Client-Port="13696" x-ms-request-id="ed4541ea-9dc5-4b2d-8b52-ced9d65caeef" X-WAWS-Unencoded-URL="/api/deployments/latest?deployer=GitHub&amp;time=2019-06-15_02-09-18Z" CLIENT-IP="40.122.114.229:13696" X-ARR-LOG-ID="ed4541ea-9dc5-4b2d-8b52-ced9d65caeef" X-SITE-DEPLOYMENT-ID="daringdracula" WAS-DEFAULT-HOSTNAME="daringdracula.scm.azurewebsites.net" X-Forwarded-Proto="https" X-AppService-Proto="https" >
+  <step title="Cleanup Xml Logs" date="2019-06-15T02:10:24.851" /><!-- duration: 27ms -->
+  <step title="DeploymentService.GetResult" date="2019-06-15T02:10:24.900" >
+    <step title="DeploymentService.GetLatestDeployment" date="2019-06-15T02:10:24.905" >
+      <step title="DeploymentManager.GetResults" date="2019-06-15T02:10:24.910" /><!-- duration: 94ms -->
+      <step title="Deployment 7d94d3b4619f8842c5f31cce23cad6db0a64bc1d is Building" date="2019-06-15T02:10:25.015" /><!-- duration: 11ms -->
+    </step><!-- duration: 135ms -->
+  </step><!-- duration: 152ms -->
+  <step title="Outgoing response" date="2019-06-15T02:10:25.067" type="response" statusCode="202" statusText="Accepted" /><!-- duration: 9ms -->
+</step><!-- duration: 255ms -->

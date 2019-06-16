@@ -1,0 +1,24 @@
+<step title="BackgroundTrace" date="2019-06-15T02:09:18.192" instance="1b23e7" url="/deploy" method="POST" >
+  <step title="Creating temporary deployment" date="2019-06-15T02:09:18.338" /><!-- duration: 68ms -->
+  <step title="Performing fetch based deployment" date="2019-06-15T02:09:18.448" >
+    <step title="DeploymentManager.Deploy(id:7d94d3b4619f8842c5f31cce23cad6db0a64bc1d)" date="2019-06-15T02:09:23.660" >
+      <step title="Collecting changeset information" date="2019-06-15T02:09:23.699" /><!-- duration: 24ms -->
+      <step title="Updating submodules" date="2019-06-15T02:09:23.730" /><!-- duration: 21ms -->
+      <step title="Determining deployment builder" date="2019-06-15T02:09:23.805" >
+        <step title="Builder is OryxBuilder" date="2019-06-15T02:09:23.840" /><!-- duration: 4ms -->
+      </step><!-- duration: 42ms -->
+      <step title="Building" date="2019-06-15T02:09:23.882" >
+        <step title="Executing external process" date="2019-06-15T02:09:23.972" type="process" path="starter.sh" arguments="kudusync -v 50 -f /home/site/repository -t /home/site/wwwroot -n /home/site/deployments/7d94d3b4619f8842c5f31cce23cad6db0a64bc1d/manifest -p /opt/Kudu/Scripts/firstDeploymentManifest -i &quot;.git;.hg;.deployment;.deploy.sh&quot;" /><!-- duration: 708ms -->
+        <step title="Executing external process" date="2019-06-15T02:09:24.807" type="process" path="starter.sh" arguments="oryx build /home/site/wwwroot -o /home/site/wwwroot -l python --language-version 3.7 -p virtualenv_name=antenv" >
+          <step title="Cpu: pip(212,15.720s)+ts(213,0.020s)+build.sh(162,0.000s)+oryx(150,1.130s)=total(16.870s)" date="2019-06-15T02:11:25.852" /><!-- duration: 22ms -->
+          <step title="starter.sh: no io activity for 61s, prev-cpu=-1.000s, current-cpu=16.870s" date="2019-06-15T02:11:25.887" /><!-- duration: 14ms -->
+        </step><!-- duration: 171680ms -->
+        <step title="Skip function trigger and logicapp sync because function is not enabled." date="2019-06-15T02:12:16.540" /><!-- duration: 4ms -->
+      </step><!-- duration: 172749ms -->
+    </step><!-- duration: 172978ms -->
+    <step title="Cleaning up temp files" date="2019-06-15T02:12:16.641" /><!-- duration: 4ms -->
+    <step title="Reloading status file with latest updates" date="2019-06-15T02:12:16.679" >
+      <step title="WebHooksManager.PublishEventAsync: PostDeployment" date="2019-06-15T02:12:16.684" /><!-- duration: 32ms -->
+    </step><!-- duration: 41ms -->
+  </step><!-- duration: 178284ms -->
+</step><!-- duration: 178557ms -->

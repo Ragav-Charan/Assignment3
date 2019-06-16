@@ -1,0 +1,5 @@
+<step title="Incoming Request" date="2019-06-15T20:41:03.928" instance="1b23e7" url="/api/logs/docker" method="GET" type="request" pid="69,1,14" Connection="close" Authorization="Bas..." Host="daringdracula.scm.azurewebsites.net" X-Client-IP="40.122.114.229" X-Client-Port="35456" X-WAWS-Unencoded-URL="/api/logs/docker" CLIENT-IP="40.122.114.229:35456" X-ARR-LOG-ID="eae6638a-1384-4da6-844f-ab3345263c56" X-SITE-DEPLOYMENT-ID="daringdracula" WAS-DEFAULT-HOSTNAME="daringdracula.scm.azurewebsites.net" X-Forwarded-Proto="https" X-AppService-Proto="https" >
+  <step title="Cleanup Xml Logs" date="2019-06-15T20:41:03.932" /><!-- duration: 8ms -->
+  <step title="DiagnosticsController.GetDockerLogs" date="2019-06-15T20:41:03.960" /><!-- duration: 14ms -->
+  <step title="Outgoing response" date="2019-06-15T20:41:03.977" type="response" statusCode="200" statusText="OK" /><!-- duration: 4ms -->
+</step><!-- duration: 58ms -->

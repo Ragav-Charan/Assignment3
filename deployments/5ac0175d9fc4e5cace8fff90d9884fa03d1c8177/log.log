@@ -1,0 +1,47 @@
+2019-06-15T22:47:48.6009604Z,Updating submodules.,6fa033d6-cbba-43b5-913b-4b1563373361,0
+2019-06-15T22:47:48.6356916Z,Preparing deployment for commit id '5ac0175d9f'.,32d8959c-a33c-4e0a-8065-10c7e2cfda23,0
+2019-06-15T22:47:48.7721142Z,Oryx-Build: Running kudu sync...,1c4f2c06-9b9a-48bf-a3ef-45d87f6fca48,0
+	2019-06-15T22:47:48.7784703Z,Command: kudusync -v 50 -f /home/site/repository -t /home/site/wwwroot -n /home/site/deployments/5ac0175d9fc4e5cace8fff90d9884fa03d1c8177/manifest -p /home/site/deployments/5ac0175d9fc4e5cace8fff90d9884fa03d1c8177/manifest -i ".git;.hg;.deployment;.deploy.sh",,0
+	2019-06-15T22:47:49.0110692Z,Kudu sync from: '/home/site/repository' to: '/home/site/wwwroot',,0
+	2019-06-15T22:47:49.0350963Z,Ignoring: .git,,0
+2019-06-15T22:47:50.5458598Z,Running oryx build...,34668343-0ef4-4267-a705-08d4456f6746,0
+	2019-06-15T22:47:50.5483377Z,Command: oryx build /home/site/wwwroot -o /home/site/wwwroot -l python --language-version 3.7 -p virtualenv_name=antenv,,0
+	2019-06-15T22:47:51.1264595Z,Build orchestrated by Microsoft Oryx&comma; https://github.com/Microsoft/Oryx,,0
+	2019-06-15T22:47:51.1344082Z,You can report issues at https://github.com/Microsoft/Oryx/issues,,0
+	2019-06-15T22:47:51.1425865Z,,,0
+	2019-06-15T22:47:51.1529493Z,Oryx Version       : 0.2.20190420.8&comma; Commit: 391f7dd882e6fe5bea69edf6ba76d77e3d310e96,,0
+	2019-06-15T22:47:51.1610605Z,Build Operation ID : |0yUICKeF0NI=.a16fd9bb_,,0
+	2019-06-15T22:47:51.1696344Z,Repository Commit  : 5ac0175d9fc4e5cace8fff90d9884fa03d1c8177,,0
+	2019-06-15T22:47:51.1761938Z,,,0
+	2019-06-15T22:47:51.5043463Z,,,0
+	2019-06-15T22:47:51.5198857Z,Source directory     : /home/site/wwwroot,,0
+	2019-06-15T22:47:51.5297377Z,Destination directory: /home/site/wwwroot,,0
+	2019-06-15T22:47:51.5415608Z,,,0
+	2019-06-15T22:47:51.5546917Z,Python Version: /opt/python/3.7.2/bin/python3,,0
+	2019-06-15T22:47:51.5651876Z,Python Virtual Environment: antenv,,0
+	2019-06-15T22:47:51.5724527Z,Creating virtual environment ...,,0
+	2019-06-15T22:47:53.2435721Z,Activating virtual environment ...,,0
+	2019-06-15T22:47:53.2572834Z,,,0
+	2019-06-15T22:47:53.2650540Z,Upgrading pip...,,0
+	2019-06-15T22:47:55.4097030Z,Requirement already up-to-date: pip in ./antenv/lib/python3.7/site-packages (19.1.1),,0
+	2019-06-15T22:47:55.8118565Z,Done in 2 sec(s).,,0
+	2019-06-15T22:47:55.8223344Z,Running pip install...,,0
+	2019-06-15T22:47:57.6407123Z,[22:47:57+0000] Requirement already satisfied: Flask in ./antenv/lib/python3.7/site-packages (from -r requirements.txt (line 1)) (0.12.1),,0
+	2019-06-15T22:47:57.6667209Z,[22:47:57+0000] Requirement already satisfied: pandas in ./antenv/lib/python3.7/site-packages (from -r requirements.txt (line 2)) (0.24.2),,0
+	2019-06-15T22:47:57.6830837Z,[22:47:57+0000] Requirement already satisfied: click>=2.0 in ./antenv/lib/python3.7/site-packages (from Flask->-r requirements.txt (line 1)) (7.0),,0
+	2019-06-15T22:47:57.6956280Z,[22:47:57+0000] Requirement already satisfied: itsdangerous>=0.21 in ./antenv/lib/python3.7/site-packages (from Flask->-r requirements.txt (line 1)) (1.1.0),,0
+	2019-06-15T22:47:57.7059981Z,[22:47:57+0000] Requirement already satisfied: Jinja2>=2.4 in ./antenv/lib/python3.7/site-packages (from Flask->-r requirements.txt (line 1)) (2.10.1),,0
+	2019-06-15T22:47:57.7180069Z,[22:47:57+0000] Requirement already satisfied: Werkzeug>=0.7 in ./antenv/lib/python3.7/site-packages (from Flask->-r requirements.txt (line 1)) (0.15.4),,0
+	2019-06-15T22:47:57.7396486Z,[22:47:57+0000] Requirement already satisfied: numpy>=1.12.0 in ./antenv/lib/python3.7/site-packages (from pandas->-r requirements.txt (line 2)) (1.16.4),,0
+	2019-06-15T22:47:57.7494723Z,[22:47:57+0000] Requirement already satisfied: pytz>=2011k in ./antenv/lib/python3.7/site-packages (from pandas->-r requirements.txt (line 2)) (2019.1),,0
+	2019-06-15T22:47:57.7609144Z,[22:47:57+0000] Requirement already satisfied: python-dateutil>=2.5.0 in ./antenv/lib/python3.7/site-packages (from pandas->-r requirements.txt (line 2)) (2.8.0),,0
+	2019-06-15T22:47:57.7779132Z,[22:47:57+0000] Requirement already satisfied: MarkupSafe>=0.23 in ./antenv/lib/python3.7/site-packages (from Jinja2>=2.4->Flask->-r requirements.txt (line 1)) (1.1.1),,0
+	2019-06-15T22:47:57.7905733Z,[22:47:57+0000] Requirement already satisfied: six>=1.5 in ./antenv/lib/python3.7/site-packages (from python-dateutil>=2.5.0->pandas->-r requirements.txt (line 2)) (1.12.0),,0
+	2019-06-15T22:47:58.1739470Z,Done running pip install.,,0
+	2019-06-15T22:47:58.1864999Z,,,0
+	2019-06-15T22:47:58.1927003Z,Removing existing manifest file,,0
+	2019-06-15T22:47:58.2060388Z,,,0
+	2019-06-15T22:47:58.2175055Z,Done.,,0
+2019-06-15T22:47:59.7676895Z,Running post deployment command(s)...,9c1ee256-6232-498b-a090-9f387bee9b74,0
+2019-06-15T22:47:59.8204784Z,Deployment successful.,3b5a5362-a928-44f9-adca-cb343f69218b,0
+2019-06-15T22:47:59.9631772Z,App container will begin restart within 10 seconds.,bc8cf1dd-cffb-48ea-9faa-549438b2fde4,0

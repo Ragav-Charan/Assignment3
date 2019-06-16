@@ -1,0 +1,9 @@
+<step title="Incoming Request" date="2019-06-15T19:44:00.702" instance="1b23e7" url="/api/scm" method="DELETE" type="request" pid="68,1,4" Connection="close" Authorization="Bas..." Host="daringdracula.scm.azurewebsites.net" User-Agent="Azure-WebSites-Controller/82.0.7.88" X-Client-IP="40.122.114.229" X-Client-Port="9344" x-ms-request-id="6d3af086-c6ed-4cee-a963-244aa12779e0" X-WAWS-Unencoded-URL="/api/scm" CLIENT-IP="40.122.114.229:9344" X-ARR-LOG-ID="6d3af086-c6ed-4cee-a963-244aa12779e0" X-SITE-DEPLOYMENT-ID="daringdracula" WAS-DEFAULT-HOSTNAME="daringdracula.scm.azurewebsites.net" X-Forwarded-Proto="https" X-AppService-Proto="https" >
+  <step title="Deleting repository" date="2019-06-15T19:44:00.868" /><!-- duration: 681ms -->
+  <step title="Delete auto swap lock file" date="2019-06-15T19:44:01.560" /><!-- duration: 12ms -->
+  <step title="Deleting ssh key" date="2019-06-15T19:44:01.578" /><!-- duration: 20ms -->
+  <step title="Updating initial deployment manifest" date="2019-06-15T19:44:01.604" /><!-- duration: 109ms -->
+  <step title="Deleting deployment cache" date="2019-06-15T19:44:01.717" /><!-- duration: 91ms -->
+  <step title="Releasing Lock " date="2019-06-15T19:44:01.821" /><!-- duration: 4ms -->
+  <step title="Outgoing response" date="2019-06-15T19:44:01.841" type="response" statusCode="200" statusText="OK" /><!-- duration: 4ms -->
+</step><!-- duration: 1151ms -->

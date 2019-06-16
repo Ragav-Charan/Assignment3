@@ -1,0 +1,14 @@
+<step title="Incoming Request" date="2019-06-15T06:41:36.139" instance="1b23e7" url="/api/deployments/latest?deployer=GitHub&amp;time=2019-06-15_06-41-25Z" method="GET" type="request" pid="68,1,16" Connection="close" Authorization="Bas..." Host="daringdracula.scm.azurewebsites.net" User-Agent="Azure-WebSites-Controller/82.0.7.88" X-Client-IP="40.122.114.229" X-Client-Port="19520" x-ms-request-id="c3282831-43ac-44da-8231-28d474f4415a" X-WAWS-Unencoded-URL="/api/deployments/latest?deployer=GitHub&amp;time=2019-06-15_06-41-25Z" CLIENT-IP="40.122.114.229:19520" X-ARR-LOG-ID="c3282831-43ac-44da-8231-28d474f4415a" X-SITE-DEPLOYMENT-ID="daringdracula" WAS-DEFAULT-HOSTNAME="daringdracula.scm.azurewebsites.net" X-Forwarded-Proto="https" X-AppService-Proto="https" >
+  <step title="Cleanup Xml Logs" date="2019-06-15T06:41:36.145" /><!-- duration: 10ms -->
+  <step title="DeploymentService.GetResult" date="2019-06-15T06:41:36.182" >
+    <step title="DeploymentService.GetLatestDeployment" date="2019-06-15T06:41:36.192" >
+      <step title="DeploymentManager.GetResults" date="2019-06-15T06:41:36.203" >
+        <step title="Purge deployment items" date="2019-06-15T06:41:36.328" >
+          <step title="Remove temp-5939, Pending, received at 6/15/19 6:41:25 AM" date="2019-06-15T06:41:36.380" /><!-- duration: 6ms -->
+        </step><!-- duration: 67ms -->
+      </step><!-- duration: 200ms -->
+      <step title="Deployment fd1d864976ecdd908ff966356faf4e31b2555e3b is Building" date="2019-06-15T06:41:36.415" /><!-- duration: 11ms -->
+    </step><!-- duration: 244ms -->
+  </step><!-- duration: 264ms -->
+  <step title="Outgoing response" date="2019-06-15T06:41:36.455" type="response" statusCode="202" statusText="Accepted" /><!-- duration: 7ms -->
+</step><!-- duration: 333ms -->

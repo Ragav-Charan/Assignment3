@@ -1,0 +1,10 @@
+<step title="Incoming Request" date="2019-06-15T19:45:24.678" instance="1b23e7" url="/api/deployments/latest?deployer=GitHub&amp;time=2019-06-15_19-45-03Z" method="GET" type="request" pid="69,1,18" Connection="close" Authorization="Bas..." Host="daringdracula.scm.azurewebsites.net" User-Agent="Azure-WebSites-Controller/82.0.7.88" X-Client-IP="40.122.114.229" X-Client-Port="9344" x-ms-request-id="9a3bd1cb-89ee-4ebf-b14f-a88c9582f9aa" X-WAWS-Unencoded-URL="/api/deployments/latest?deployer=GitHub&amp;time=2019-06-15_19-45-03Z" CLIENT-IP="40.122.114.229:9344" X-ARR-LOG-ID="9a3bd1cb-89ee-4ebf-b14f-a88c9582f9aa" X-SITE-DEPLOYMENT-ID="daringdracula" WAS-DEFAULT-HOSTNAME="daringdracula.scm.azurewebsites.net" X-Forwarded-Proto="https" X-AppService-Proto="https" >
+  <step title="Cleanup Xml Logs" date="2019-06-15T19:45:24.685" /><!-- duration: 19ms -->
+  <step title="DeploymentService.GetResult" date="2019-06-15T19:45:24.734" >
+    <step title="DeploymentService.GetLatestDeployment" date="2019-06-15T19:45:24.742" >
+      <step title="DeploymentManager.GetResults" date="2019-06-15T19:45:24.755" /><!-- duration: 91ms -->
+      <step title="Deployment temp-146a0ed6 is Pending" date="2019-06-15T19:45:24.859" /><!-- duration: 7ms -->
+    </step><!-- duration: 157ms -->
+  </step><!-- duration: 179ms -->
+  <step title="Outgoing response" date="2019-06-15T19:45:24.921" type="response" statusCode="202" statusText="Accepted" /><!-- duration: 13ms -->
+</step><!-- duration: 267ms -->

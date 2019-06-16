@@ -1,0 +1,5 @@
+<step title="Incoming Request" date="2019-06-15T19:44:56.404" instance="1b23e7" url="/api/settings" method="POST" type="request" pid="68,1,5" Connection="close" Content-Type="application/json" Authorization="Bas..." Host="daringdracula.scm.azurewebsites.net" User-Agent="Azure-WebSites-Controller/82.0.7.88" Content-Length="26" X-Client-IP="40.122.114.229" X-Client-Port="9344" x-ms-request-id="9a3bd1cb-89ee-4ebf-b14f-a88c9582f9aa" X-WAWS-Unencoded-URL="/api/settings" CLIENT-IP="40.122.114.229:9344" X-ARR-LOG-ID="9a3bd1cb-89ee-4ebf-b14f-a88c9582f9aa" X-SITE-DEPLOYMENT-ID="daringdracula" WAS-DEFAULT-HOSTNAME="daringdracula.scm.azurewebsites.net" X-Forwarded-Proto="https" X-AppService-Proto="https" >
+  <step title="Cleanup Xml Logs" date="2019-06-15T19:44:56.408" /><!-- duration: 8ms -->
+  <step title="Releasing Lock " date="2019-06-15T19:44:56.470" /><!-- duration: 5ms -->
+  <step title="Outgoing response" date="2019-06-15T19:44:56.486" type="response" statusCode="204" statusText="NoContent" /><!-- duration: 4ms -->
+</step><!-- duration: 89ms -->

@@ -1,0 +1,1405 @@
+2019-06-15 02:00:10.326 INFO  - Starting container for site
+2019-06-15 02:00:10.326 INFO  - docker run -d -p 22676:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 02:00:10.326 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 02:00:10.709 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 02:00:11.772 INFO  - Container daringdracula_0 for site daringdracula initialized successfully and is ready to serve requests.
+2019-06-15 02:09:09.088 INFO  - Recycling container because of AppSettingsChange and isMainSite = True
+2019-06-15 02:09:09.095 INFO  - Starting container for site
+2019-06-15 02:09:09.095 INFO  - docker run -d -p 3243:8000 --name daringdracula_1 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 02:09:09.095 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 02:09:10.354 INFO  - Initiating warmup request to container daringdracula_1 for site daringdracula
+2019-06-15 02:09:12.662 INFO  - Container daringdracula_1 for site daringdracula initialized successfully and is ready to serve requests.
+2019-06-15 02:12:17.705 INFO  - Starting container for site
+2019-06-15 02:12:17.705 INFO  - docker run -d -p 43414:8000 --name daringdracula_2 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 02:12:17.705 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 02:12:18.129 INFO  - Initiating warmup request to container daringdracula_2 for site daringdracula
+2019-06-15 02:12:22.551 INFO  - Container daringdracula_2 for site daringdracula initialized successfully and is ready to serve requests.
+2019-06-15 02:17:38.587 INFO  - Starting container for site
+2019-06-15 02:17:38.587 INFO  - docker run -d -p 25331:8000 --name daringdracula_3 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 02:17:38.587 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 02:17:38.971 INFO  - Initiating warmup request to container daringdracula_3 for site daringdracula
+2019-06-15 02:17:40.568 INFO  - Container daringdracula_3 for site daringdracula initialized successfully and is ready to serve requests.
+2019-06-15 06:40:28.554 INFO  - Recycling container because of AppSettingsChange and isMainSite = True
+2019-06-15 06:40:28.561 INFO  - Starting container for site
+2019-06-15 06:40:28.561 INFO  - docker run -d -p 43661:8000 --name daringdracula_4 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 06:40:28.561 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 06:40:29.332 INFO  - Initiating warmup request to container daringdracula_4 for site daringdracula
+2019-06-15 06:40:32.003 INFO  - Container daringdracula_4 for site daringdracula initialized successfully and is ready to serve requests.
+2019-06-15 06:41:19.198 INFO  - Recycling container because of AppSettingsChange and isMainSite = True
+2019-06-15 06:41:19.205 INFO  - Starting container for site
+2019-06-15 06:41:19.205 INFO  - docker run -d -p 42244:8000 --name daringdracula_5 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 06:41:19.205 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 06:41:19.964 INFO  - Initiating warmup request to container daringdracula_5 for site daringdracula
+2019-06-15 06:41:22.464 INFO  - Container daringdracula_5 for site daringdracula initialized successfully and is ready to serve requests.
+2019-06-15 06:41:42.193 INFO  - Starting container for site
+2019-06-15 06:41:42.194 INFO  - docker run -d -p 15300:8000 --name daringdracula_6 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 06:41:42.194 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 06:41:42.538 INFO  - Initiating warmup request to container daringdracula_6 for site daringdracula
+2019-06-15 06:41:48.972 INFO  - Container daringdracula_6 for site daringdracula initialized successfully and is ready to serve requests.
+2019-06-15 06:49:02.889 INFO  - Starting container for site
+2019-06-15 06:49:02.889 INFO  - docker run -d -p 62489:8000 --name daringdracula_7 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 06:49:02.889 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 06:49:03.393 INFO  - Initiating warmup request to container daringdracula_7 for site daringdracula
+2019-06-15 06:49:10.325 INFO  - Container daringdracula_7 for site daringdracula initialized successfully and is ready to serve requests.
+2019-06-15 06:49:12.909 INFO  - Starting container for site
+2019-06-15 06:49:12.909 INFO  - docker run -d -p 42976:8000 --name daringdracula_8 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 06:49:12.909 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 06:49:13.319 INFO  - Initiating warmup request to container daringdracula_8 for site daringdracula
+2019-06-15 06:49:19.792 INFO  - Container daringdracula_8 for site daringdracula initialized successfully and is ready to serve requests.
+2019-06-15 06:51:43.143 INFO  - Starting container for site
+2019-06-15 06:51:43.144 INFO  - docker run -d -p 21703:8000 --name daringdracula_9 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 06:51:43.144 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 06:51:43.644 INFO  - Initiating warmup request to container daringdracula_9 for site daringdracula
+2019-06-15 06:51:51.443 ERROR - Container daringdracula_9 for site daringdracula has exited, failing site start
+2019-06-15 06:51:51.452 ERROR - Container daringdracula_9 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 06:56:32.838 INFO  - Starting container for site
+2019-06-15 06:56:32.840 INFO  - docker run -d -p 3578:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 06:56:32.841 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 06:56:33.201 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 06:56:40.827 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 06:56:40.836 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 07:01:32.618 INFO  - Starting container for site
+2019-06-15 07:01:32.619 INFO  - docker run -d -p 57781:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 07:01:32.620 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 07:01:33.025 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 07:01:41.081 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 07:01:41.090 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 07:06:32.988 INFO  - Starting container for site
+2019-06-15 07:06:32.989 INFO  - docker run -d -p 62040:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 07:06:32.991 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 07:06:33.344 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 07:06:40.810 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 07:06:40.819 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 07:11:33.033 INFO  - Starting container for site
+2019-06-15 07:11:33.034 INFO  - docker run -d -p 13732:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 07:11:33.036 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 07:11:33.388 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 07:11:40.901 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 07:11:40.912 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 07:16:33.237 INFO  - Starting container for site
+2019-06-15 07:16:33.238 INFO  - docker run -d -p 59294:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 07:16:33.239 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 07:16:33.628 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 07:16:41.327 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 07:16:41.336 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 07:21:33.586 INFO  - Starting container for site
+2019-06-15 07:21:33.587 INFO  - docker run -d -p 10720:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 07:21:33.589 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 07:21:33.940 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 07:21:41.941 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 07:21:41.954 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 07:26:33.681 INFO  - Starting container for site
+2019-06-15 07:26:33.683 INFO  - docker run -d -p 46229:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 07:26:33.684 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 07:26:34.036 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 07:26:41.212 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 07:26:41.221 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 07:31:34.005 INFO  - Starting container for site
+2019-06-15 07:31:34.006 INFO  - docker run -d -p 21034:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 07:31:34.006 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 07:31:34.363 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 07:31:41.891 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 07:31:41.903 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 07:36:34.150 INFO  - Starting container for site
+2019-06-15 07:36:34.151 INFO  - docker run -d -p 10274:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 07:36:34.152 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 07:36:34.552 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 07:36:41.929 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 07:36:41.938 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 07:41:34.256 INFO  - Starting container for site
+2019-06-15 07:41:34.257 INFO  - docker run -d -p 32958:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 07:41:34.258 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 07:41:34.659 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 07:41:41.955 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 07:41:41.959 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 07:46:34.856 INFO  - Starting container for site
+2019-06-15 07:46:34.857 INFO  - docker run -d -p 48260:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 07:46:34.859 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 07:46:35.284 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 07:46:42.354 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 07:46:42.364 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 07:51:34.740 INFO  - Starting container for site
+2019-06-15 07:51:34.741 INFO  - docker run -d -p 25883:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 07:51:34.742 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 07:51:35.158 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 07:51:43.052 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 07:51:43.061 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 07:56:34.979 INFO  - Starting container for site
+2019-06-15 07:56:34.981 INFO  - docker run -d -p 10330:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 07:56:34.981 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 07:56:35.378 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 07:56:42.444 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 07:56:42.454 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 08:01:35.333 INFO  - Starting container for site
+2019-06-15 08:01:35.334 INFO  - docker run -d -p 58432:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 08:01:35.335 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 08:01:35.686 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 08:01:43.366 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 08:01:43.377 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 08:06:35.466 INFO  - Starting container for site
+2019-06-15 08:06:35.466 INFO  - docker run -d -p 23092:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 08:06:35.468 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 08:06:35.846 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 08:06:43.501 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 08:06:43.511 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 08:11:36.503 INFO  - Starting container for site
+2019-06-15 08:11:36.504 INFO  - docker run -d -p 23302:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 08:11:36.505 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 08:11:36.850 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 08:11:44.154 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 08:11:44.165 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 08:16:35.935 INFO  - Starting container for site
+2019-06-15 08:16:35.936 INFO  - docker run -d -p 30865:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 08:16:35.937 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 08:16:36.271 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 08:16:43.691 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 08:16:43.701 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 08:21:36.150 INFO  - Starting container for site
+2019-06-15 08:21:36.152 INFO  - docker run -d -p 37346:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 08:21:36.153 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 08:21:36.497 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 08:21:44.527 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 08:21:44.536 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 08:26:36.491 INFO  - Starting container for site
+2019-06-15 08:26:36.492 INFO  - docker run -d -p 39921:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 08:26:36.492 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 08:26:36.862 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 08:26:44.799 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 08:26:44.815 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 08:31:36.903 INFO  - Starting container for site
+2019-06-15 08:31:36.904 INFO  - docker run -d -p 27290:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 08:31:36.905 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 08:31:37.271 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 08:31:44.367 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 08:31:44.377 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 08:36:36.737 INFO  - Starting container for site
+2019-06-15 08:36:36.738 INFO  - docker run -d -p 41361:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 08:36:36.738 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 08:36:37.083 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 08:36:44.867 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 08:36:44.878 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 08:41:37.214 INFO  - Starting container for site
+2019-06-15 08:41:37.214 INFO  - docker run -d -p 12425:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 08:41:37.215 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 08:41:37.580 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 08:41:45.369 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 08:41:45.381 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 08:46:37.707 INFO  - Starting container for site
+2019-06-15 08:46:37.709 INFO  - docker run -d -p 33964:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 08:46:37.709 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 08:46:38.052 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 08:46:44.924 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 08:46:44.933 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 08:51:37.519 INFO  - Starting container for site
+2019-06-15 08:51:37.519 INFO  - docker run -d -p 60014:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 08:51:37.521 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 08:51:37.872 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 08:51:45.501 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 08:51:45.519 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 08:56:37.802 INFO  - Starting container for site
+2019-06-15 08:56:37.804 INFO  - docker run -d -p 58265:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 08:56:37.804 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 08:56:38.162 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 08:56:45.467 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 08:56:45.483 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 09:01:37.897 INFO  - Starting container for site
+2019-06-15 09:01:37.898 INFO  - docker run -d -p 53239:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 09:01:37.899 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 09:01:38.260 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 09:01:46.701 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 09:01:46.709 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 09:06:37.925 INFO  - Starting container for site
+2019-06-15 09:06:37.927 INFO  - docker run -d -p 11449:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 09:06:37.928 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 09:06:38.294 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 09:06:46.125 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 09:06:46.133 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 09:11:40.525 INFO  - Starting container for site
+2019-06-15 09:11:40.527 INFO  - docker run -d -p 9059:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 09:11:40.528 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 09:11:40.896 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 09:11:49.310 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 09:11:49.323 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 09:16:38.504 INFO  - Starting container for site
+2019-06-15 09:16:38.505 INFO  - docker run -d -p 20510:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 09:16:38.506 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 09:16:38.850 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 09:16:46.243 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 09:16:46.253 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 09:21:38.546 INFO  - Starting container for site
+2019-06-15 09:21:38.547 INFO  - docker run -d -p 42535:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 09:21:38.548 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 09:21:38.893 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 09:21:47.979 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 09:21:47.987 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 09:26:38.845 INFO  - Starting container for site
+2019-06-15 09:26:38.847 INFO  - docker run -d -p 12620:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 09:26:38.848 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 09:26:39.215 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 09:26:46.797 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 09:26:46.808 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 09:31:38.976 INFO  - Starting container for site
+2019-06-15 09:31:38.979 INFO  - docker run -d -p 23358:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 09:31:38.980 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 09:31:39.352 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 09:31:47.843 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 09:31:47.853 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 09:36:39.122 INFO  - Starting container for site
+2019-06-15 09:36:39.124 INFO  - docker run -d -p 46894:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 09:36:39.124 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 09:36:39.494 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 09:36:47.340 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 09:36:47.351 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 09:41:39.515 INFO  - Starting container for site
+2019-06-15 09:41:39.516 INFO  - docker run -d -p 9505:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 09:41:39.517 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 09:41:39.912 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 09:41:46.818 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 09:41:46.827 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 09:46:39.748 INFO  - Starting container for site
+2019-06-15 09:46:39.749 INFO  - docker run -d -p 25172:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 09:46:39.750 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 09:46:40.168 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 09:46:48.201 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 09:46:48.210 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 09:51:39.734 INFO  - Starting container for site
+2019-06-15 09:51:39.735 INFO  - docker run -d -p 30569:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 09:51:39.736 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 09:51:40.155 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 09:51:47.918 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 09:51:47.927 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 09:56:40.186 INFO  - Starting container for site
+2019-06-15 09:56:40.189 INFO  - docker run -d -p 21521:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 09:56:40.190 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 09:56:40.608 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 09:56:48.566 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 09:56:48.572 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 10:01:40.183 INFO  - Starting container for site
+2019-06-15 10:01:40.184 INFO  - docker run -d -p 39146:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 10:01:40.185 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 10:01:40.592 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 10:01:48.571 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 10:01:48.584 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 10:06:40.422 INFO  - Starting container for site
+2019-06-15 10:06:40.424 INFO  - docker run -d -p 45582:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 10:06:40.425 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 10:06:40.796 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 10:06:48.018 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 10:06:48.027 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 10:11:40.621 INFO  - Starting container for site
+2019-06-15 10:11:40.623 INFO  - docker run -d -p 36786:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 10:11:40.624 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 10:11:40.992 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 10:11:48.899 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 10:11:48.909 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 10:16:41.194 INFO  - Starting container for site
+2019-06-15 10:16:41.195 INFO  - docker run -d -p 35616:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 10:16:41.196 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 10:16:41.539 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 10:16:49.517 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 10:16:49.526 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 10:21:40.974 INFO  - Starting container for site
+2019-06-15 10:21:40.975 INFO  - docker run -d -p 11795:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 10:21:40.976 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 10:21:41.331 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 10:21:49.305 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 10:21:49.314 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 10:26:41.314 INFO  - Starting container for site
+2019-06-15 10:26:41.316 INFO  - docker run -d -p 48113:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 10:26:41.317 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 10:26:41.669 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 10:26:49.501 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 10:26:49.510 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 10:31:41.576 INFO  - Starting container for site
+2019-06-15 10:31:41.577 INFO  - docker run -d -p 45323:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 10:31:41.578 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 10:31:41.941 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 10:31:49.393 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 10:31:49.403 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 10:36:41.761 INFO  - Starting container for site
+2019-06-15 10:36:41.763 INFO  - docker run -d -p 22345:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 10:36:41.764 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 10:36:42.121 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 10:36:49.325 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 10:36:49.335 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 10:41:41.726 INFO  - Starting container for site
+2019-06-15 10:41:41.727 INFO  - docker run -d -p 2387:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 10:41:41.728 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 10:41:42.097 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 10:41:49.838 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 10:41:49.857 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 10:46:42.781 INFO  - Starting container for site
+2019-06-15 10:46:42.782 INFO  - docker run -d -p 14060:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 10:46:42.784 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 10:46:43.162 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 10:46:50.822 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 10:46:50.826 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 10:51:42.126 INFO  - Starting container for site
+2019-06-15 10:51:42.127 INFO  - docker run -d -p 42719:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 10:51:42.128 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 10:51:42.492 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 10:51:49.797 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 10:51:49.807 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 10:56:42.520 INFO  - Starting container for site
+2019-06-15 10:56:42.521 INFO  - docker run -d -p 12444:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 10:56:42.522 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 10:56:42.862 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 10:56:50.245 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 10:56:50.256 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 11:01:42.543 INFO  - Starting container for site
+2019-06-15 11:01:42.545 INFO  - docker run -d -p 2284:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 11:01:42.546 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 11:01:42.890 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 11:01:51.436 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 11:01:51.451 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 11:06:42.677 INFO  - Starting container for site
+2019-06-15 11:06:42.680 INFO  - docker run -d -p 56283:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 11:06:42.681 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 11:06:43.036 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 11:06:50.347 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 11:06:50.363 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 11:11:42.960 INFO  - Starting container for site
+2019-06-15 11:11:42.962 INFO  - docker run -d -p 3176:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 11:11:42.962 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 11:11:43.340 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 11:11:51.509 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 11:11:51.518 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 11:16:43.126 INFO  - Starting container for site
+2019-06-15 11:16:43.127 INFO  - docker run -d -p 26209:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 11:16:43.128 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 11:16:43.477 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 11:16:51.444 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 11:16:51.454 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 11:21:43.693 INFO  - Starting container for site
+2019-06-15 11:21:43.694 INFO  - docker run -d -p 38691:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 11:21:43.695 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 11:21:44.055 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 11:21:51.102 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 11:21:51.113 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 11:26:43.794 INFO  - Starting container for site
+2019-06-15 11:26:43.795 INFO  - docker run -d -p 31072:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 11:26:43.797 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 11:26:44.126 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 11:26:51.683 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 11:26:51.693 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 11:31:43.847 INFO  - Starting container for site
+2019-06-15 11:31:43.849 INFO  - docker run -d -p 29012:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 11:31:43.850 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 11:31:44.205 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 11:31:51.841 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 11:31:51.850 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 11:36:43.936 INFO  - Starting container for site
+2019-06-15 11:36:43.937 INFO  - docker run -d -p 16292:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 11:36:43.939 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 11:36:44.337 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 11:36:51.846 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 11:36:51.856 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 11:41:44.121 INFO  - Starting container for site
+2019-06-15 11:41:44.122 INFO  - docker run -d -p 59817:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 11:41:44.123 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 11:41:44.493 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 11:41:52.972 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 11:41:52.981 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 11:46:44.310 INFO  - Starting container for site
+2019-06-15 11:46:44.312 INFO  - docker run -d -p 60899:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 11:46:44.313 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 11:46:44.663 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 11:46:53.110 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 11:46:53.121 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 11:51:44.852 INFO  - Starting container for site
+2019-06-15 11:51:44.855 INFO  - docker run -d -p 38852:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 11:51:44.856 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 11:51:45.303 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 11:51:53.098 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 11:51:53.107 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 11:56:44.714 INFO  - Starting container for site
+2019-06-15 11:56:44.716 INFO  - docker run -d -p 37648:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 11:56:44.718 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 11:56:45.094 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 11:56:52.965 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 11:56:52.976 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 12:01:45.337 INFO  - Starting container for site
+2019-06-15 12:01:45.338 INFO  - docker run -d -p 58526:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 12:01:45.339 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 12:01:45.731 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 12:01:53.070 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 12:01:53.080 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 12:06:45.328 INFO  - Starting container for site
+2019-06-15 12:06:45.329 INFO  - docker run -d -p 61798:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 12:06:45.330 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 12:06:45.730 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 12:06:53.447 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 12:06:53.458 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 12:11:45.533 INFO  - Starting container for site
+2019-06-15 12:11:45.534 INFO  - docker run -d -p 5664:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 12:11:45.534 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 12:11:45.892 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 12:11:53.832 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 12:11:53.842 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 12:16:45.613 INFO  - Starting container for site
+2019-06-15 12:16:45.615 INFO  - docker run -d -p 63924:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 12:16:45.616 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 12:16:45.984 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 12:16:53.980 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 12:16:53.992 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 12:21:45.854 INFO  - Starting container for site
+2019-06-15 12:21:45.855 INFO  - docker run -d -p 3085:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 12:21:45.856 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 12:21:46.251 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 12:21:54.341 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 12:21:54.350 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 12:26:46.548 INFO  - Starting container for site
+2019-06-15 12:26:46.549 INFO  - docker run -d -p 40468:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 12:26:46.550 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 12:26:46.906 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 12:26:54.027 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 12:26:54.037 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 12:31:46.131 INFO  - Starting container for site
+2019-06-15 12:31:46.132 INFO  - docker run -d -p 17280:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 12:31:46.133 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 12:31:46.495 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 12:31:53.831 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 12:31:53.841 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 12:36:46.724 INFO  - Starting container for site
+2019-06-15 12:36:46.726 INFO  - docker run -d -p 29979:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 12:36:46.726 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 12:36:47.075 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 12:36:54.843 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 12:36:54.853 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 12:41:46.628 INFO  - Starting container for site
+2019-06-15 12:41:46.629 INFO  - docker run -d -p 6152:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 12:41:46.630 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 12:41:46.983 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 12:41:54.435 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 12:41:54.455 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 12:46:46.990 INFO  - Starting container for site
+2019-06-15 12:46:46.991 INFO  - docker run -d -p 53422:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 12:46:46.992 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 12:46:47.349 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 12:46:55.274 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 12:46:55.283 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 12:51:47.016 INFO  - Starting container for site
+2019-06-15 12:51:47.017 INFO  - docker run -d -p 58598:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 12:51:47.017 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 12:51:47.371 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 12:51:55.479 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 12:51:55.489 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 12:56:47.480 INFO  - Starting container for site
+2019-06-15 12:56:47.481 INFO  - docker run -d -p 62763:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 12:56:47.483 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 12:56:47.848 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 12:56:55.784 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 12:56:55.794 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 13:01:47.612 INFO  - Starting container for site
+2019-06-15 13:01:47.613 INFO  - docker run -d -p 36597:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 13:01:47.613 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 13:01:47.965 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 13:01:55.240 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 13:01:55.250 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 13:06:47.580 INFO  - Starting container for site
+2019-06-15 13:06:47.580 INFO  - docker run -d -p 1063:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 13:06:47.581 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 13:06:47.929 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 13:06:55.980 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 13:06:55.991 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 13:11:47.757 INFO  - Starting container for site
+2019-06-15 13:11:47.758 INFO  - docker run -d -p 36791:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 13:11:47.760 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 13:11:48.091 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 13:11:55.944 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 13:11:55.955 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 13:16:47.998 INFO  - Starting container for site
+2019-06-15 13:16:47.999 INFO  - docker run -d -p 15630:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 13:16:48.000 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 13:16:48.361 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 13:16:55.849 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 13:16:55.858 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 13:21:48.701 INFO  - Starting container for site
+2019-06-15 13:21:48.702 INFO  - docker run -d -p 42369:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 13:21:48.703 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 13:21:49.057 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 13:21:57.613 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 13:21:57.624 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 13:26:48.470 INFO  - Starting container for site
+2019-06-15 13:26:48.472 INFO  - docker run -d -p 49639:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 13:26:48.472 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 13:26:48.808 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 13:26:56.156 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 13:26:56.166 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 13:31:48.684 INFO  - Starting container for site
+2019-06-15 13:31:48.685 INFO  - docker run -d -p 61306:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 13:31:48.686 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 13:31:49.045 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 13:31:56.599 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 13:31:56.608 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 13:36:48.935 INFO  - Starting container for site
+2019-06-15 13:36:48.937 INFO  - docker run -d -p 30921:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 13:36:48.938 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 13:36:49.292 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 13:36:57.871 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 13:36:57.880 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 13:41:48.906 INFO  - Starting container for site
+2019-06-15 13:41:48.907 INFO  - docker run -d -p 32882:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 13:41:48.908 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 13:41:49.262 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 13:41:56.761 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 13:41:56.770 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 13:46:49.324 INFO  - Starting container for site
+2019-06-15 13:46:49.325 INFO  - docker run -d -p 56491:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 13:46:49.326 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 13:46:49.688 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 13:46:57.785 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 13:46:57.803 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 13:51:49.725 INFO  - Starting container for site
+2019-06-15 13:51:49.726 INFO  - docker run -d -p 3337:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 13:51:49.727 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 13:51:50.124 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 13:51:57.842 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 13:51:57.854 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 13:56:49.551 INFO  - Starting container for site
+2019-06-15 13:56:49.552 INFO  - docker run -d -p 17737:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 13:56:49.553 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 13:56:49.921 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 13:56:57.984 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 13:56:57.995 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 14:01:50.072 INFO  - Starting container for site
+2019-06-15 14:01:50.073 INFO  - docker run -d -p 15532:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 14:01:50.079 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 14:01:50.489 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 14:01:59.599 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 14:01:59.608 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 14:06:50.261 INFO  - Starting container for site
+2019-06-15 14:06:50.262 INFO  - docker run -d -p 50892:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 14:06:50.263 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 14:06:50.664 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 14:06:58.497 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 14:06:58.507 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 14:11:50.350 INFO  - Starting container for site
+2019-06-15 14:11:50.351 INFO  - docker run -d -p 30382:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 14:11:50.352 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 14:11:50.767 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 14:11:58.379 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 14:11:58.389 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 14:16:50.383 INFO  - Starting container for site
+2019-06-15 14:16:50.383 INFO  - docker run -d -p 53236:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 14:16:50.385 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 14:16:50.801 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 14:16:58.435 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 14:16:58.448 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 14:21:50.631 INFO  - Starting container for site
+2019-06-15 14:21:50.633 INFO  - docker run -d -p 62633:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 14:21:50.633 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 14:21:50.978 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 14:21:58.748 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 14:21:58.760 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 14:26:51.389 INFO  - Starting container for site
+2019-06-15 14:26:51.389 INFO  - docker run -d -p 7129:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 14:26:51.391 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 14:26:51.742 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 14:26:59.748 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 14:26:59.762 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 14:31:50.963 INFO  - Starting container for site
+2019-06-15 14:31:50.964 INFO  - docker run -d -p 25624:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 14:31:50.964 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 14:31:51.360 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 14:31:59.228 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 14:31:59.239 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 14:36:51.201 INFO  - Starting container for site
+2019-06-15 14:36:51.202 INFO  - docker run -d -p 33688:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 14:36:51.202 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 14:36:51.578 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 14:36:59.278 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 14:36:59.289 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 14:41:52.397 INFO  - Starting container for site
+2019-06-15 14:41:52.398 INFO  - docker run -d -p 41515:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 14:41:52.398 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 14:41:52.760 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 14:42:00.336 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 14:42:00.346 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 14:46:52.085 INFO  - Starting container for site
+2019-06-15 14:46:52.087 INFO  - docker run -d -p 43423:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 14:46:52.088 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 14:46:52.433 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 14:47:00.344 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 14:47:00.359 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 14:51:52.126 INFO  - Starting container for site
+2019-06-15 14:51:52.127 INFO  - docker run -d -p 6835:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 14:51:52.129 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 14:51:52.494 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 14:52:00.322 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 14:52:00.330 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 14:56:52.157 INFO  - Starting container for site
+2019-06-15 14:56:52.157 INFO  - docker run -d -p 19384:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 14:56:52.158 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 14:56:52.501 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 14:57:00.006 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 14:57:00.015 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 15:01:52.267 INFO  - Starting container for site
+2019-06-15 15:01:52.267 INFO  - docker run -d -p 46652:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 15:01:52.273 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 15:01:52.639 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 15:02:00.141 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 15:02:00.146 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 15:06:52.498 INFO  - Starting container for site
+2019-06-15 15:06:52.499 INFO  - docker run -d -p 44658:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 15:06:52.501 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 15:06:52.896 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 15:07:00.555 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 15:07:00.561 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 15:11:52.619 INFO  - Starting container for site
+2019-06-15 15:11:52.622 INFO  - docker run -d -p 35300:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 15:11:52.623 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 15:11:52.988 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 15:12:00.889 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 15:12:00.897 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 15:16:53.239 INFO  - Starting container for site
+2019-06-15 15:16:53.240 INFO  - docker run -d -p 21292:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 15:16:53.241 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 15:16:53.613 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 15:17:02.040 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 15:17:02.050 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 15:21:53.046 INFO  - Starting container for site
+2019-06-15 15:21:53.047 INFO  - docker run -d -p 27352:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 15:21:53.048 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 15:21:53.362 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 15:22:02.234 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 15:22:02.246 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 15:26:53.336 INFO  - Starting container for site
+2019-06-15 15:26:53.337 INFO  - docker run -d -p 47721:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 15:26:53.338 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 15:26:53.682 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 15:27:01.360 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 15:27:01.371 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 15:31:53.508 INFO  - Starting container for site
+2019-06-15 15:31:53.509 INFO  - docker run -d -p 33530:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 15:31:53.510 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 15:31:53.873 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 15:32:01.683 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 15:32:01.692 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 15:36:53.625 INFO  - Starting container for site
+2019-06-15 15:36:53.626 INFO  - docker run -d -p 17121:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 15:36:53.627 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 15:36:53.975 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 15:37:02.503 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 15:37:02.514 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 15:41:54.291 INFO  - Starting container for site
+2019-06-15 15:41:54.292 INFO  - docker run -d -p 20235:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 15:41:54.294 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 15:41:54.633 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 15:42:02.464 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 15:42:02.476 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 15:46:54.060 INFO  - Starting container for site
+2019-06-15 15:46:54.061 INFO  - docker run -d -p 7145:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 15:46:54.062 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 15:46:54.415 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 15:47:03.044 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 15:47:03.054 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 15:51:54.490 INFO  - Starting container for site
+2019-06-15 15:51:54.491 INFO  - docker run -d -p 41399:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 15:51:54.492 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 15:51:54.853 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 15:52:02.468 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 15:52:02.478 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 15:56:54.477 INFO  - Starting container for site
+2019-06-15 15:56:54.479 INFO  - docker run -d -p 52426:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 15:56:54.480 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 15:56:54.843 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 15:57:03.278 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 15:57:03.287 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 16:01:54.718 INFO  - Starting container for site
+2019-06-15 16:01:54.719 INFO  - docker run -d -p 55928:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 16:01:54.720 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 16:01:55.071 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 16:02:03.393 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 16:02:03.404 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 16:06:54.905 INFO  - Starting container for site
+2019-06-15 16:06:54.906 INFO  - docker run -d -p 59373:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 16:06:54.907 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 16:06:55.327 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 16:07:04.590 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 16:07:04.599 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 16:11:55.285 INFO  - Starting container for site
+2019-06-15 16:11:55.286 INFO  - docker run -d -p 16100:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 16:11:55.287 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 16:11:55.735 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 16:12:03.444 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 16:12:03.454 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 16:16:55.510 INFO  - Starting container for site
+2019-06-15 16:16:55.511 INFO  - docker run -d -p 62556:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 16:16:55.512 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 16:16:55.964 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 16:17:04.551 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 16:17:04.560 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 16:21:55.536 INFO  - Starting container for site
+2019-06-15 16:21:55.538 INFO  - docker run -d -p 26870:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 16:21:55.539 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 16:21:55.991 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 16:22:04.384 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 16:22:04.395 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 16:26:55.830 INFO  - Starting container for site
+2019-06-15 16:26:55.831 INFO  - docker run -d -p 43648:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 16:26:55.833 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 16:26:56.194 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 16:27:04.442 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 16:27:04.453 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 16:31:56.206 INFO  - Starting container for site
+2019-06-15 16:31:56.207 INFO  - docker run -d -p 44472:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 16:31:56.208 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 16:31:56.559 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 16:32:03.819 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 16:32:03.829 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 16:36:56.325 INFO  - Starting container for site
+2019-06-15 16:36:56.326 INFO  - docker run -d -p 60458:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 16:36:56.327 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 16:36:56.693 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 16:37:05.165 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 16:37:05.175 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 16:41:56.338 INFO  - Starting container for site
+2019-06-15 16:41:56.339 INFO  - docker run -d -p 18947:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 16:41:56.339 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 16:41:56.689 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 16:42:04.470 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 16:42:04.481 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 16:46:56.662 INFO  - Starting container for site
+2019-06-15 16:46:56.662 INFO  - docker run -d -p 62246:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 16:46:56.663 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 16:46:57.029 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 16:47:05.447 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 16:47:05.463 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 16:51:57.121 INFO  - Starting container for site
+2019-06-15 16:51:57.123 INFO  - docker run -d -p 18995:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 16:51:57.124 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 16:51:57.494 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 16:52:05.467 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 16:52:05.476 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 16:56:57.377 INFO  - Starting container for site
+2019-06-15 16:56:57.378 INFO  - docker run -d -p 14155:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 16:56:57.379 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 16:56:57.761 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 16:57:06.196 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 16:57:06.206 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 17:01:57.582 INFO  - Starting container for site
+2019-06-15 17:01:57.584 INFO  - docker run -d -p 41890:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 17:01:57.585 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 17:01:57.961 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 17:02:05.598 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 17:02:05.607 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 17:06:57.353 INFO  - Starting container for site
+2019-06-15 17:06:57.355 INFO  - docker run -d -p 52596:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 17:06:57.355 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 17:06:57.713 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 17:07:05.421 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 17:07:05.432 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 17:11:58.181 INFO  - Starting container for site
+2019-06-15 17:11:58.182 INFO  - docker run -d -p 19102:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 17:11:58.183 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 17:11:58.527 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 17:12:06.862 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 17:12:06.877 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 17:16:57.734 INFO  - Starting container for site
+2019-06-15 17:16:57.736 INFO  - docker run -d -p 45247:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 17:16:57.736 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 17:16:58.095 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 17:17:06.410 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 17:17:06.420 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 17:21:57.966 INFO  - Starting container for site
+2019-06-15 17:21:57.967 INFO  - docker run -d -p 51969:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 17:21:57.967 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 17:21:58.310 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 17:22:06.817 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 17:22:06.829 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 17:26:58.154 INFO  - Starting container for site
+2019-06-15 17:26:58.156 INFO  - docker run -d -p 42076:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 17:26:58.157 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 17:26:58.518 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 17:27:05.964 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 17:27:05.975 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 17:31:58.494 INFO  - Starting container for site
+2019-06-15 17:31:58.495 INFO  - docker run -d -p 31524:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 17:31:58.496 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 17:31:58.867 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 17:32:07.087 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 17:32:07.098 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 17:36:58.618 INFO  - Starting container for site
+2019-06-15 17:36:58.619 INFO  - docker run -d -p 27021:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 17:36:58.620 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 17:36:58.954 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 17:37:06.627 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 17:37:06.637 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 17:41:58.798 INFO  - Starting container for site
+2019-06-15 17:41:58.799 INFO  - docker run -d -p 61115:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 17:41:58.801 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 17:41:59.157 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 17:42:07.152 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 17:42:07.161 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 17:46:59.013 INFO  - Starting container for site
+2019-06-15 17:46:59.014 INFO  - docker run -d -p 29713:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 17:46:59.015 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 17:46:59.382 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 17:47:07.662 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 17:47:07.673 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 17:51:59.836 INFO  - Starting container for site
+2019-06-15 17:51:59.837 INFO  - docker run -d -p 10703:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 17:51:59.838 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 17:52:00.195 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 17:52:07.611 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 17:52:07.623 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 17:56:59.579 INFO  - Starting container for site
+2019-06-15 17:56:59.579 INFO  - docker run -d -p 37789:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 17:56:59.581 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 17:56:59.936 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 17:57:08.451 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 17:57:08.461 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 18:02:00.002 INFO  - Starting container for site
+2019-06-15 18:02:00.005 INFO  - docker run -d -p 22446:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 18:02:00.006 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 18:02:00.416 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 18:02:08.458 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 18:02:08.467 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 18:07:00.166 INFO  - Starting container for site
+2019-06-15 18:07:00.167 INFO  - docker run -d -p 5190:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 18:07:00.168 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 18:07:00.582 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 18:07:08.893 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 18:07:08.902 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 18:12:01.018 INFO  - Starting container for site
+2019-06-15 18:12:01.020 INFO  - docker run -d -p 8101:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 18:12:01.020 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 18:12:01.376 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 18:12:09.456 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 18:12:09.466 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 18:17:00.285 INFO  - Starting container for site
+2019-06-15 18:17:00.287 INFO  - docker run -d -p 13216:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 18:17:00.288 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 18:17:00.658 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 18:17:08.933 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 18:17:08.945 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 18:22:00.542 INFO  - Starting container for site
+2019-06-15 18:22:00.543 INFO  - docker run -d -p 60697:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 18:22:00.543 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 18:22:00.954 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 18:22:09.355 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 18:22:09.363 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 18:27:01.036 INFO  - Starting container for site
+2019-06-15 18:27:01.037 INFO  - docker run -d -p 31458:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 18:27:01.038 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 18:27:01.393 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 18:27:08.863 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 18:27:08.874 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 18:32:01.072 INFO  - Starting container for site
+2019-06-15 18:32:01.074 INFO  - docker run -d -p 21333:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 18:32:01.075 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 18:32:01.439 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 18:32:09.523 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 18:32:09.533 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 18:37:01.509 INFO  - Starting container for site
+2019-06-15 18:37:01.510 INFO  - docker run -d -p 36230:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 18:37:01.510 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 18:37:01.881 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 18:37:09.881 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 18:37:09.891 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 18:42:01.722 INFO  - Starting container for site
+2019-06-15 18:42:01.723 INFO  - docker run -d -p 48022:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 18:42:01.724 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 18:42:02.096 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 18:42:09.930 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 18:42:09.939 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 18:47:01.629 INFO  - Starting container for site
+2019-06-15 18:47:01.630 INFO  - docker run -d -p 3041:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 18:47:01.631 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 18:47:02.003 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 18:47:10.039 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 18:47:10.048 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 18:52:01.941 INFO  - Starting container for site
+2019-06-15 18:52:01.945 INFO  - docker run -d -p 42178:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 18:52:01.946 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 18:52:02.318 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 18:52:10.296 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 18:52:10.311 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 18:57:02.144 INFO  - Starting container for site
+2019-06-15 18:57:02.145 INFO  - docker run -d -p 6259:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 18:57:02.146 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 18:57:02.499 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 18:57:11.575 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 18:57:11.586 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 19:02:02.401 INFO  - Starting container for site
+2019-06-15 19:02:02.402 INFO  - docker run -d -p 3034:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 19:02:02.403 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 19:02:02.785 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 19:02:10.936 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 19:02:10.946 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 19:04:37.083 INFO  - Starting container for site
+2019-06-15 19:04:37.084 INFO  - docker run -d -p 44823:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 19:04:37.085 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 19:04:37.447 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 19:04:45.783 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 19:04:45.797 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 19:04:46.987 INFO  - Starting container for site
+2019-06-15 19:04:46.989 INFO  - docker run -d -p 32837:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 19:04:46.990 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 19:04:47.338 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 19:04:55.535 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 19:04:55.545 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 19:07:02.518 INFO  - Starting container for site
+2019-06-15 19:07:02.519 INFO  - docker run -d -p 13439:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 19:07:02.520 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 19:07:02.905 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 19:07:11.213 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 19:07:11.222 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 19:10:52.696 INFO  - Starting container for site
+2019-06-15 19:10:52.697 INFO  - docker run -d -p 42507:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 19:10:52.698 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 19:10:53.051 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 19:11:01.073 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 19:11:01.083 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 19:11:02.482 INFO  - Starting container for site
+2019-06-15 19:11:02.483 INFO  - docker run -d -p 15780:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 19:11:02.485 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 19:11:02.880 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 19:11:11.191 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 19:11:11.201 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 19:16:02.770 INFO  - Starting container for site
+2019-06-15 19:16:02.773 INFO  - docker run -d -p 52615:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 19:16:02.773 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 19:16:03.186 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 19:16:11.415 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 19:16:11.428 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 19:21:02.972 INFO  - Starting container for site
+2019-06-15 19:21:02.973 INFO  - docker run -d -p 48715:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 19:21:02.974 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 19:21:03.350 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 19:21:11.965 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 19:21:11.983 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 19:26:03.156 INFO  - Starting container for site
+2019-06-15 19:26:03.157 INFO  - docker run -d -p 32879:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 19:26:03.158 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 19:26:03.557 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 19:26:11.222 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 19:26:11.231 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 19:31:03.525 INFO  - Starting container for site
+2019-06-15 19:31:03.526 INFO  - docker run -d -p 29495:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 19:31:03.526 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 19:31:03.926 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 19:31:11.469 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 19:31:11.477 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 19:36:03.785 INFO  - Starting container for site
+2019-06-15 19:36:03.786 INFO  - docker run -d -p 28276:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 19:36:03.787 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 19:36:04.152 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 19:36:12.334 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 19:36:12.343 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 19:41:03.759 INFO  - Starting container for site
+2019-06-15 19:41:03.760 INFO  - docker run -d -p 24337:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 19:41:03.762 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 19:41:04.132 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 19:41:12.105 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 19:41:12.114 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 19:43:34.074 INFO  - Starting container for site
+2019-06-15 19:43:34.075 INFO  - docker run -d -p 45509:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 19:43:34.076 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 19:43:34.437 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 19:43:42.199 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 19:43:42.209 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 19:43:43.943 INFO  - Starting container for site
+2019-06-15 19:43:43.944 INFO  - docker run -d -p 37105:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 19:43:43.945 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 19:43:44.302 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 19:43:53.059 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 19:43:53.069 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 19:43:54.160 INFO  - Starting container for site
+2019-06-15 19:43:54.161 INFO  - docker run -d -p 50489:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 19:43:54.162 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 19:43:54.831 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 19:44:05.426 ERROR - Container daringdracula_0 for site daringdracula has exited, failing site start
+2019-06-15 19:44:05.437 ERROR - Container daringdracula_0 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2019-06-15 19:47:09.317 INFO  - Starting container for site
+2019-06-15 19:47:09.319 INFO  - docker run -d -p 21263:8000 --name daringdracula_0 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 19:47:09.320 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 19:47:09.687 INFO  - Initiating warmup request to container daringdracula_0 for site daringdracula
+2019-06-15 19:47:17.281 INFO  - Container daringdracula_0 for site daringdracula initialized successfully and is ready to serve requests.
+2019-06-15 20:09:32.007 INFO  - Starting container for site
+2019-06-15 20:09:32.007 INFO  - docker run -d -p 50434:8000 --name daringdracula_1 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 20:09:32.008 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 20:09:32.379 INFO  - Initiating warmup request to container daringdracula_1 for site daringdracula
+2019-06-15 20:09:39.242 INFO  - Container daringdracula_1 for site daringdracula initialized successfully and is ready to serve requests.
+2019-06-15 20:09:52.045 INFO  - Starting container for site
+2019-06-15 20:09:52.046 INFO  - docker run -d -p 29151:8000 --name daringdracula_2 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 20:09:52.046 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 20:09:52.472 INFO  - Initiating warmup request to container daringdracula_2 for site daringdracula
+2019-06-15 20:09:59.220 INFO  - Container daringdracula_2 for site daringdracula initialized successfully and is ready to serve requests.
+2019-06-15 20:32:14.067 INFO  - Starting container for site
+2019-06-15 20:32:14.068 INFO  - docker run -d -p 2408:8000 --name daringdracula_3 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 20:32:14.069 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 20:32:14.432 INFO  - Initiating warmup request to container daringdracula_3 for site daringdracula
+2019-06-15 20:32:22.056 INFO  - Container daringdracula_3 for site daringdracula initialized successfully and is ready to serve requests.
+2019-06-15 20:39:14.660 INFO  - Starting container for site
+2019-06-15 20:39:14.662 INFO  - docker run -d -p 29703:8000 --name daringdracula_4 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 appsvc/python:3.7_1904022342  
+
+2019-06-15 20:39:14.663 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-06-15 20:39:15.016 INFO  - Initiating warmup request to container daringdracula_4 for site daringdracula
+2019-06-15 20:39:22.164 INFO  - Container daringdracula_4 for site daringdracula initialized successfully and is ready to serve requests.
+2019-06-15 22:41:15.278 INFO  - Recycling container because of HttpLoggingEnabledChange and httpLoggingEnabled = True
+2019-06-15 22:41:15.291 INFO  - Starting container for site
+2019-06-15 22:41:15.292 INFO  - docker run -d -p 57918:8000 --name daringdracula_5 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 -e HTTP_LOGGING_ENABLED=1 appsvc/python:3.7_1904022342  
+
+2019-06-15 22:41:16.064 INFO  - Initiating warmup request to container daringdracula_5 for site daringdracula
+2019-06-15 22:41:23.630 INFO  - Container daringdracula_5 for site daringdracula initialized successfully and is ready to serve requests.
+2019-06-15 22:47:25.688 INFO  - Starting container for site
+2019-06-15 22:47:25.688 INFO  - docker run -d -p 7998:8000 --name daringdracula_6 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 -e HTTP_LOGGING_ENABLED=1 appsvc/python:3.7_1904022342  
+
+2019-06-15 22:47:26.114 INFO  - Initiating warmup request to container daringdracula_6 for site daringdracula
+2019-06-15 22:47:32.764 INFO  - Container daringdracula_6 for site daringdracula initialized successfully and is ready to serve requests.
+2019-06-15 22:48:05.763 INFO  - Starting container for site
+2019-06-15 22:48:05.764 INFO  - docker run -d -p 38834:8000 --name daringdracula_7 -e WEBSITE_SITE_NAME=daringdracula -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=daringdracula.azurewebsites.net -e WEBSITE_INSTANCE_ID=1b23e730f5d1841553e382375b9531a06b3948f3866b8cd336a9765c8435dc03 -e HTTP_LOGGING_ENABLED=1 appsvc/python:3.7_1904022342  
+
+2019-06-15 22:48:06.185 INFO  - Initiating warmup request to container daringdracula_7 for site daringdracula
+2019-06-15 22:48:12.237 INFO  - Container daringdracula_7 for site daringdracula initialized successfully and is ready to serve requests.

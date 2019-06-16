@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<deployment>
+  <id>830e3876a0b26d352d5f17e0f355bb57ffdc7b89</id>
+  <author>Charan-Venkatesan</author>
+  <deployer>GitHub</deployer>
+  <authorEmail>charan.venkatesan94@gmail.com</authorEmail>
+  <message>Version 1</message>
+  <progress></progress>
+  <status>Success</status>
+  <statusText></statusText>
+  <lastSuccessEndTime>2019-06-15T20:39:04.6889024Z</lastSuccessEndTime>
+  <receivedTime>2019-06-15T20:31:57.2199041Z</receivedTime>
+  <startTime>2019-06-15T20:38:53.163662Z</startTime>
+  <endTime>2019-06-15T20:39:04.6889024Z</endTime>
+  <complete>True</complete>
+  <is_temp>False</is_temp>
+  <is_readonly>False</is_readonly>
+</deployment>

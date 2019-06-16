@@ -1,0 +1,6 @@
+<step title="Incoming Request" date="2019-06-15T02:09:09.759" instance="1b23e7" url="/deploy?scmType=GitHub" method="POST" type="request" pid="70,1,23" Connection="close" Content-Type="application/x-www-form-urlencoded" Accept="*/*" Authorization="Bas..." Host="daringdracula.scm.azurewebsites.net" User-Agent="GitHub-Hookshot/71faf64" Content-Length="9544" X-Client-IP="140.82.115.70" X-Client-Port="30716" X-GitHub-Event="ping" X-GitHub-Delivery="8ed61990-8f12-11e9-8f10-e9a47632c4a8" X-WAWS-Unencoded-URL="/deploy?scmType=GitHub" CLIENT-IP="140.82.115.70:30716" X-ARR-LOG-ID="c5be3635-e5da-4737-b228-3fea9e91909e" X-SITE-DEPLOYMENT-ID="daringdracula" WAS-DEFAULT-HOSTNAME="daringdracula.scm.azurewebsites.net" X-Forwarded-Proto="https" X-AppService-Proto="https" >
+  <step title="FetchHandler" date="2019-06-15T02:09:10.218" >
+    <step title="No-op for deployment." date="2019-06-15T02:09:10.494" /><!-- duration: 15ms -->
+  </step><!-- duration: 319ms -->
+  <step title="Outgoing response" date="2019-06-15T02:09:10.550" type="response" statusCode="200" statusText="OK" /><!-- duration: 25ms -->
+</step><!-- duration: 845ms -->

@@ -1,0 +1,4 @@
+<step title="Incoming Request" date="2019-06-15T06:40:27.538" instance="1b23e7" url="/api/settings/ScmType" method="GET" type="request" pid="68,1,45" Connection="close" Authorization="Bas..." Host="daringdracula.scm.azurewebsites.net" User-Agent="Azure-WebSites-Controller/82.0.7.88" X-Client-IP="40.122.114.229" X-Client-Port="13696" x-ms-request-id="c429922a-6778-4771-80e7-10d20ec21a4e" X-WAWS-Unencoded-URL="/api/settings/ScmType" CLIENT-IP="40.122.114.229:13696" X-ARR-LOG-ID="c429922a-6778-4771-80e7-10d20ec21a4e" X-SITE-DEPLOYMENT-ID="daringdracula" WAS-DEFAULT-HOSTNAME="daringdracula.scm.azurewebsites.net" X-Forwarded-Proto="https" X-AppService-Proto="https" >
+  <step title="Cleanup Xml Logs" date="2019-06-15T06:40:27.542" /><!-- duration: 7ms -->
+  <step title="Outgoing response" date="2019-06-15T06:40:27.554" type="response" statusCode="200" statusText="OK" /><!-- duration: 8ms -->
+</step><!-- duration: 29ms -->

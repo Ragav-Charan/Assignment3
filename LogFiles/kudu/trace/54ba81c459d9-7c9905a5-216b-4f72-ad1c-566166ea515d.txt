@@ -1,0 +1,1 @@
+2019-06-15T19:45:03  Startup Request, url: /api/settings/ScmType, method: GET, type: request, pid: 69,1,5, ScmType: GitHub

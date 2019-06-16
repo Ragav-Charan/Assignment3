@@ -1,0 +1,21 @@
+<step title="BackgroundTrace" date="2019-06-15T20:09:02.899" instance="1b23e7" url="/deploy" method="POST" >
+  <step title="Performing fetch based deployment" date="2019-06-15T20:09:02.980" >
+    <step title="Creating temporary deployment" date="2019-06-15T20:09:02.988" /><!-- duration: 37ms -->
+    <step title="DeploymentManager.Deploy(id:a66ca31b915b6fce3170a51eb8192a58cd20c1f4)" date="2019-06-15T20:09:11.281" >
+      <step title="Collecting changeset information" date="2019-06-15T20:09:11.308" /><!-- duration: 30ms -->
+      <step title="Updating submodules" date="2019-06-15T20:09:11.343" /><!-- duration: 33ms -->
+      <step title="Determining deployment builder" date="2019-06-15T20:09:11.444" >
+        <step title="Builder is OryxBuilder" date="2019-06-15T20:09:11.465" /><!-- duration: 6ms -->
+      </step><!-- duration: 35ms -->
+      <step title="Building" date="2019-06-15T20:09:11.549" >
+        <step title="Executing external process" date="2019-06-15T20:09:12.274" type="process" path="starter.sh" arguments="kudusync -v 50 -f /home/site/repository -t /home/site/wwwroot -n /home/site/deployments/a66ca31b915b6fce3170a51eb8192a58cd20c1f4/manifest -p /home/site/deployments/74680c6c9dc5e113e155cf340b7ce9967da9ee37/manifest -i &quot;.git;.hg;.deployment;.deploy.sh&quot;" /><!-- duration: 2564ms -->
+        <step title="Executing external process" date="2019-06-15T20:09:14.941" type="process" path="starter.sh" arguments="oryx build /home/site/wwwroot -o /home/site/wwwroot -l python --language-version 3.7 -p virtualenv_name=antenv" /><!-- duration: 9678ms -->
+        <step title="Skip function trigger and logicapp sync because function is not enabled." date="2019-06-15T20:09:24.674" /><!-- duration: 5ms -->
+      </step><!-- duration: 13257ms -->
+    </step><!-- duration: 13529ms -->
+    <step title="Cleaning up temp files" date="2019-06-15T20:09:24.820" /><!-- duration: 4ms -->
+    <step title="Reloading status file with latest updates" date="2019-06-15T20:09:24.854" >
+      <step title="WebHooksManager.PublishEventAsync: PostDeployment" date="2019-06-15T20:09:24.857" /><!-- duration: 11ms -->
+    </step><!-- duration: 19ms -->
+  </step><!-- duration: 21907ms -->
+</step><!-- duration: 22011ms -->
