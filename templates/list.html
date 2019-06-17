@@ -3,9 +3,9 @@
 
    <body>
    <center>
-       <h1>Name: Charan Venkatesan</h1>
-    <h1>Student Id: 1001626250</h1>
-    <h1>Assignment2</h1><br>
+      <header> <h1> Charan Venkatesan </h1> </header>
+		<header> <h1> 1001626250</h1> </header>
+            <header> <h1> Assignment 3</h1> </header>
       <header> <h1> This page lists the Earthquake records </h1>
       </header>
       <br> <br>
@@ -16,8 +16,23 @@
     <td>longitude</td>
     <td>depth</td>
     <td>mag</td>
-	<td>nst</td>
+	<td>magType</td>
+    <td>nst</td>
+    <td>gap</td>
+    <td>dmin</td>
+    <td>rms</td>
+    <td>net</td>
+    <td>id</td>
+    <td>updated</td>
     <td>place</td>
+    <td>horizontalError</td>
+    <td>depthError</td>
+    <td>magError</td>
+    <td>magNst</td>
+    <td>type</td>
+    <td>status</td>
+    <td>locationSource</td>
+    <td>magSource</td>
     </thead>
     <tbody>
     {% for rows in data1 %}
@@ -30,9 +45,24 @@
             <td>{{rows[5]}}</td>
             <td>{{rows[6]}}</td>
             <td>{{rows[7]}}</td>
+            <td>{{rows[8]}}</td>
+            <td>{{rows[9]}}</td>
+            <td>{{rows[10]}}</td>
+            <td>{{rows[11]}}</td>
+            <td>{{rows[12]}}</td>
+            <td>{{rows[13]}}</td>
+            <td>{{rows[14]}}</td>
+            <td>{{rows[15]}}</td>
+            <td>{{rows[16]}}</td>
+            <td>{{rows[17]}}</td>
+            <td>{{rows[18]}}</td>
+            <td>{{rows[19]}}</td>
+            <td>{{rows[20]}}</td>
+            <td>{{rows[21]}}</td>
+            <td>{{rows[22]}}</td>
         </tr>
-
     {% endfor %}
+
     </tbody>
 </table>
 

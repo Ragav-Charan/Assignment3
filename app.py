@@ -1,12 +1,17 @@
 import os
+import random
+import time
+
 import pyodbc
 import pandas as pd
+import redis as redis
 from flask import Flask, render_template, request
 import sqlite3 as sql
-
 app = Flask(__name__)
 port = int(os.getenv('VCAP_APP_PORT','5000'))
-
+myHostname = "flyingjaguar.redis.cache.windows.net"
+myPassword = "3azkQQEBo5hhkEhjS7GrD+RF8AmdpJtsjWst5KxqEYY="
+r = redis.StrictRedis(host=myHostname, port=6380,password=myPassword,ssl=True)
 server = 'charan.database.windows.net'
 database = 'MyDB'
 username = 'charan123'
@@ -17,37 +22,82 @@ cnxn = pyodbc.connect('DRIVER='+driver+';SERVER='+server+';PORT=1433;DATABASE='+
 
 @app.route('/')
 def home():
-    cursor = cnxn.cursor()
-    cursor.execute("SELECT * FROM all_month")
-    row = cursor.fetchall()
-    # while row:
-    #     #print(str(row[0]) + " " + str(row[1]))
-    #     row = cursor.fetchall()
-    return render_template('home.html',data = row)
+    return render_template('home.html')
 
-@app.route('/enternew')
-def upload_csv():
-   return render_template('upload.html')
-
-@app.route('/addrec',methods = ['POST', 'GET'])
-def addrec():
-   if request.method == 'POST':
-       con = sql.connect("https://github.com/Ragav-Charan/Assignment3/database.db")
-       csv = request.files['myfile']
-       file = pd.read_csv(csv)
-       file.to_sql('Earthquake', con, schema=None, if_exists='replace', index=True, index_label=None, chunksize=None, dtype=None)
-       con.close()
-   return render_template("result.html",msg = "Record inserted successfully")
 
 @app.route('/list')
 def list():
-   con = sql.connect("database.db")
-   cur = con.cursor()
-   cur.execute("select * from Earthquake")
-   rows = cur.fetchall();
-   con.close()
-   return render_template("list.html",data1 = rows)
+    cursor = cnxn.cursor()
+    cursor.execute("SELECT * FROM all_month")
+    row = cursor.fetchall()
+    return render_template("list.html", data1=row)
+
+
+@app.route('/records')
+def records():
+    return render_template('records.html')
+
+
+@app.route('/restricted')
+def restricted():
+    return render_template('rest.html')
+
+
+@app.route('/options', methods=['POST', 'GET'])
+def options():
+    start_time = time.time()
+    num = int(request.form['num'])
+    rows = []
+    c = []
+    for i in range(num):
+        val = round(random.uniform(2,5),1)
+        cur = cnxn.cursor()
+        a = 'select * from all_month WHERE mag = '+str(val)
+       #cur.execute("select * from all_month WHERE mag = ?" ,(val,))
+        v = str(val)
+        if r.get(a):
+            print ('Cached')
+            c.append('Cached')
+            print (r.get(a))
+            rows.append(r.get(a))
+        else:
+            print('Not Cached')
+            c.append('Not Cached')
+            cur.execute("select * from all_month WHERE mag = ?" ,(val,))
+            get = cur.fetchall();
+            rows.append(get)
+            r.set(a,str(get))
+    end_time = time.time()
+    elapsed_time = end_time - start_time
+    r.flushdb()
+    return render_template("list1.html", rows=[c], etime=elapsed_time)
+
+
+@app.route('/options2', methods=['POST', 'GET'])
+def options2():
+    start_time = time.time()
+    num = int(request.form['num'])
+    loc = (request.form['loc'])
+    rows = []
+    for i in range(num):
+        cur = cnxn.cursor()
+        b = "select * from all_month WHERE place LIKE '%'"+loc+"%"
+       # cur.execute("select * from all_month WHERE place LIKE ?", ('%'+loc+'%',))
+        if r.get(b):
+            print('Cached')
+            rows.append(r.get(b))
+        else:
+            print('Not Cached')
+            cur.execute("select * from all_month WHERE place LIKE ?", ('%' + loc + '%',))
+            get = cur.fetchall();
+            rows.append(get)
+            r.set(b,str(get))
+    end_time = time.time()
+    elapsed_time = end_time - start_time
+    return render_template("list2.html", rows= [rows,elapsed_time])
+
 
 if __name__ == '__main__':
     #app.run(default=True)
     app.run(host='0.0.0.0',port=port,debug=True)
+    r.flushdb()
