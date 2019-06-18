@@ -49,6 +49,10 @@ def restricted():
 def restrictedmag():
     return render_template('restmag.html')
 
+@app.route('/restrictedlat')
+def restrictedlat():
+    return render_template('lat.html')
+
 @app.route('/dist')
 def dist():
     return render_template('location.html')
@@ -116,20 +120,21 @@ def options2():
 @app.route('/options3', methods=['POST', 'GET'])
 def options3():
     start_time = time.time()
-    mag1 = request.form['mag1']
-    mag2 = (request.form['mag2'])
+    mag1 = float(request.form['mag1'])
+    mag2 = float(request.form['mag2'])
     rows = []
     num = int(request.form['num'])
     for i in range(num):
+        val = str(round(random.uniform(mag1, mag2), 1))
         cur = cnxn.cursor()
-        c = "select * from all_month WHERE mag between "+mag1+" and "+mag2
+        c = "select * from all_month WHERE mag ="+val
        # cur.execute("select * from all_month WHERE place LIKE ?", ('%'+loc+'%',))
         if r.get(c):
             print('Cached')
             rows.append(r.get(c))
         else:
             print('Not Cached')
-            cur.execute("select * from all_month WHERE mag between ? and ?", (mag1, mag2))
+            cur.execute("select * from all_month WHERE mag =?", (val))
             get = cur.fetchall();
             rows.append(get)
             r.set(c,str(get))
@@ -206,6 +211,32 @@ def otr():
     end_time = time.time()
     elapsed_time = end_time - start_time
     return render_template("list5.html", dist=rows, etime=elapsed_time)
+
+@app.route('/options4', methods=['POST', 'GET'])
+def options4():
+    start_time = time.time()
+    l1 = float(request.form['l1'])
+    l2 = float(request.form['l2'])
+    rows = []
+    num = int(request.form['num'])
+    for i in range(num):
+        val = str(round(random.uniform(l1, l2), 1))
+        cur = cnxn.cursor()
+        c = "select * from all_month WHERE latitude ="+val
+       # cur.execute("select * from all_month WHERE place LIKE ?", ('%'+loc+'%',))
+        if r.get(c):
+            print('Cached')
+            rows.append(r.get(c))
+        else:
+            print('Not Cached')
+            cur.execute("select * from all_month WHERE latitude =?", (val))
+            get = cur.fetchall();
+            rows.append(get)
+            r.set(c,str(get))
+    end_time = time.time()
+    elapsed_time = end_time - start_time
+    return render_template("list3.html", rows=[rows,elapsed_time])
+
 
 if __name__ == '__main__':
     #app.run(default=True)
